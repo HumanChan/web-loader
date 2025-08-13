@@ -1,10 +1,15 @@
 import { BrowserWindow, ipcMain } from 'electron';
 import { IPC } from '../../shared/ipc';
 import { SessionManager } from '../session/SessionManager';
+import { ResourceCaptureService } from '../capture/ResourceCaptureService';
+
+let capture: ResourceCaptureService | null = null;
 
 export function registerMainIpcHandlers(_win: BrowserWindow) {
   ipcMain.handle(IPC.NavigateTo, async (_event, args: { url: string }) => {
     const s = SessionManager.startNewSession(args.url);
+    capture = new ResourceCaptureService({ sessionPartition: s.partition, tempDir: s.tempDir, mainDocumentUrl: args.url });
+    await capture.start();
     return { sessionId: s.sessionId, partition: s.partition };
   });
 
@@ -26,6 +31,7 @@ export function registerMainIpcHandlers(_win: BrowserWindow) {
 
   ipcMain.handle(IPC.StopCapture, async () => {
     SessionManager.stop();
+    if (capture) await capture.stop();
     return { ok: true };
   });
 }
