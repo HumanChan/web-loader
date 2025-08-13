@@ -1,0 +1,1147 @@
+[
+  {
+    "id": "ilI3EXepQS89e3cuqYARK",
+    "type": "other",
+    "url": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/index.html",
+      "queryHashSuffix": "__q_551850cb",
+      "relativePathFromRoot": "/game_test/index.html"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101859996,
+    "finishedAt": 1755101859996,
+    "state": "success",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "LKMx6QWuYEEijAi1X4r9e",
+    "type": "stylesheet",
+    "url": "https://tf-cdn.shryou.com/game_test/style.css?v=1",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/style.css?v=1",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/style.css?v=1",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/style.css",
+      "queryHashSuffix": "__q_38609a28",
+      "relativePathFromRoot": "/game_test/style.css"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101860053,
+    "finishedAt": 1755101860053,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "KQz7mIDPrGFtuTkjgsUha",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/fp.min.9abb9.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/fp.min.9abb9.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/fp.min.9abb9.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/fp.min.9abb9.js",
+      "relativePathFromRoot": "/game_test/fp.min.9abb9.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101860103,
+    "finishedAt": 1755101860103,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "fM2PN8mvZE_U8eXZS3-Mi",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/sdk/xyMini.js?v=1.5",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/sdk/xyMini.js?v=1.5",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/sdk/xyMini.js?v=1.5",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/sdk/xyMini.js",
+      "queryHashSuffix": "__q_204880b4",
+      "relativePathFromRoot": "/game_test/sdk/xyMini.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101860159,
+    "finishedAt": 1755101860159,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "wX-wIGEff5BJEJfUuZKhm",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/src/polyfills.bundle.5adbf.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/src/polyfills.bundle.5adbf.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/src/polyfills.bundle.5adbf.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/src/polyfills.bundle.5adbf.js",
+      "relativePathFromRoot": "/game_test/src/polyfills.bundle.5adbf.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101860204,
+    "finishedAt": 1755101860204,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "Gmt7c-UXVadX0R-cR17P5",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/src/system.bundle.543e6.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/src/system.bundle.543e6.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/src/system.bundle.543e6.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/src/system.bundle.543e6.js",
+      "relativePathFromRoot": "/game_test/src/system.bundle.543e6.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101860413,
+    "finishedAt": 1755101860413,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "kTBD-1C1NEqNuTPAwBVIC",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/sdk/js/xiaoyou.js?v=0.9964115970225522",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/sdk/js/xiaoyou.js?v=0.9964115970225522",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/sdk/js/xiaoyou.js?v=0.9964115970225522",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/sdk/js/xiaoyou.js",
+      "queryHashSuffix": "__q_1ac9f110",
+      "relativePathFromRoot": "/game_test/sdk/js/xiaoyou.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101860486,
+    "finishedAt": 1755101860486,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "LKyQbZki4Y7WANvX_Z-oj",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/src/import-map.b8e93.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/src/import-map.b8e93.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/src/import-map.b8e93.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/src/import-map.b8e93.json",
+      "relativePathFromRoot": "/game_test/src/import-map.b8e93.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101861368,
+    "finishedAt": 1755101861368,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "oCwmjIxskpTuK4yfxkSQE",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/index.554c3.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/index.554c3.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/index.554c3.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/index.554c3.js",
+      "relativePathFromRoot": "/game_test/index.554c3.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101861436,
+    "finishedAt": 1755101861436,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "eFBK_qOQaKgFf1oobquFO",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/application.00daa.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/application.00daa.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/application.00daa.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/application.00daa.js",
+      "relativePathFromRoot": "/game_test/application.00daa.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101861497,
+    "finishedAt": 1755101861497,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "AXPoap_UOMmzBeHYg-5ZS",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/cocos-js/cc.d6fe3.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/cc.d6fe3.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/cc.d6fe3.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/cocos-js/cc.d6fe3.js",
+      "relativePathFromRoot": "/game_test/cocos-js/cc.d6fe3.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101861737,
+    "finishedAt": 1755101861737,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "XcXGyHF6pOrBg8dTQ5819",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/cocos-js/_virtual_cc-ih20AjT3.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/_virtual_cc-ih20AjT3.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/_virtual_cc-ih20AjT3.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/cocos-js/_virtual_cc-ih20AjT3.js",
+      "relativePathFromRoot": "/game_test/cocos-js/_virtual_cc-ih20AjT3.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101861937,
+    "finishedAt": 1755101861937,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "Fgv-uhdPvJv5VXx1RPpmd",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/src/settings.98e20.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/src/settings.98e20.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/src/settings.98e20.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/src/settings.98e20.json",
+      "relativePathFromRoot": "/game_test/src/settings.98e20.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101862520,
+    "finishedAt": 1755101862520,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "3EtJMTzWABuwAABw2toAV",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js",
+      "relativePathFromRoot": "/game_test/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101862595,
+    "finishedAt": 1755101862595,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "U1ctQrtsczENYjzVMh7ai",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js",
+      "relativePathFromRoot": "/game_test/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101863086,
+    "finishedAt": 1755101863086,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "1Iqqq1zX0q68YhKnm7In2",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/cocos-js/spine-B64FaKrv.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/spine-B64FaKrv.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/spine-B64FaKrv.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/cocos-js/spine-B64FaKrv.js",
+      "relativePathFromRoot": "/game_test/cocos-js/spine-B64FaKrv.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101863194,
+    "finishedAt": 1755101863194,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "FgWy927HPVN5ozKFpAgtA",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/cocos-js/spine.wasm-CmM0_PQ9.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/spine.wasm-CmM0_PQ9.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/spine.wasm-CmM0_PQ9.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/cocos-js/spine.wasm-CmM0_PQ9.js",
+      "relativePathFromRoot": "/game_test/cocos-js/spine.wasm-CmM0_PQ9.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101863687,
+    "finishedAt": 1755101863687,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "7jNw9Iw-NSM98Tk4jGVKb",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/cocos-js/assets/spine-BUh5FZoK.wasm",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/assets/spine-BUh5FZoK.wasm",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/assets/spine-BUh5FZoK.wasm",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/cocos-js/assets/spine-BUh5FZoK.wasm",
+      "relativePathFromRoot": "/game_test/cocos-js/assets/spine-BUh5FZoK.wasm"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101864154,
+    "finishedAt": 1755101864154,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "CfNo5hyveFBghMe9B53w9",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm",
+      "relativePathFromRoot": "/game_test/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101864688,
+    "finishedAt": 1755101864688,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "axY4xZkybSOA8s0VOojJL",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/src/effect.bin",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/src/effect.bin",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/src/effect.bin",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/src/effect.bin",
+      "relativePathFromRoot": "/game_test/src/effect.bin"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101864737,
+    "finishedAt": 1755101864737,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "Bm33ltdVOAZKIvioVaD5T",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/src/chunks/bundle.6f102.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/src/chunks/bundle.6f102.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/src/chunks/bundle.6f102.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/src/chunks/bundle.6f102.js",
+      "relativePathFromRoot": "/game_test/src/chunks/bundle.6f102.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101864837,
+    "finishedAt": 1755101864837,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "LK06dPLyUDAJJHFLtzTSH",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/internal/config.3976e.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/internal/config.3976e.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/internal/config.3976e.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/internal/config.3976e.json",
+      "relativePathFromRoot": "/game_test/assets/internal/config.3976e.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101864936,
+    "finishedAt": 1755101864936,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "ZN28ytqSDHv3BK39OiaXw",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/internal/index.3976e.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/internal/index.3976e.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/internal/index.3976e.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/internal/index.3976e.js",
+      "relativePathFromRoot": "/game_test/assets/internal/index.3976e.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101864987,
+    "finishedAt": 1755101864987,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "8Qki89e2-zU8GsyKyVdLB",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/internal/import/07/0765ff2cb.a430b.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/internal/import/07/0765ff2cb.a430b.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/internal/import/07/0765ff2cb.a430b.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/internal/import/07/0765ff2cb.a430b.json",
+      "relativePathFromRoot": "/game_test/assets/internal/import/07/0765ff2cb.a430b.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101865188,
+    "finishedAt": 1755101865188,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "8WGDMH36LBp28XOMEeSlB",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js",
+      "relativePathFromRoot": "/game_test/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101865287,
+    "finishedAt": 1755101865287,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "nG5yt7W52PzLYMa-idEcd",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/src/assets/script/thirdy/jszip/jszip.5450c.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/src/assets/script/thirdy/jszip/jszip.5450c.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/src/assets/script/thirdy/jszip/jszip.5450c.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/src/assets/script/thirdy/jszip/jszip.5450c.js",
+      "relativePathFromRoot": "/game_test/src/assets/script/thirdy/jszip/jszip.5450c.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101865487,
+    "finishedAt": 1755101865487,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "jM4BFTzcLUD_sjYDXoh8k",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/src/assets/script/thirdy/long/long.a78c5.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/src/assets/script/thirdy/long/long.a78c5.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/src/assets/script/thirdy/long/long.a78c5.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/src/assets/script/thirdy/long/long.a78c5.js",
+      "relativePathFromRoot": "/game_test/src/assets/script/thirdy/long/long.a78c5.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101865602,
+    "finishedAt": 1755101865602,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "v0SPK4Gv9WQsTE8DgEH6r",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/src/assets/script/thirdy/protobuf/protobuf.405b6.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/src/assets/script/thirdy/protobuf/protobuf.405b6.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/src/assets/script/thirdy/protobuf/protobuf.405b6.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/src/assets/script/thirdy/protobuf/protobuf.405b6.js",
+      "relativePathFromRoot": "/game_test/src/assets/script/thirdy/protobuf/protobuf.405b6.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101865988,
+    "finishedAt": 1755101865988,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "q99b-0eh87YHBwReqHH8I",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/resources/config.de91e.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/config.de91e.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/config.de91e.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/resources/config.de91e.json",
+      "relativePathFromRoot": "/game_test/assets/resources/config.de91e.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101866042,
+    "finishedAt": 1755101866042,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "pqH8aK_evXN5iNgpl4fRg",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/main/index.eaa28.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/main/index.eaa28.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/main/index.eaa28.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/main/index.eaa28.js",
+      "relativePathFromRoot": "/game_test/assets/main/index.eaa28.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101866087,
+    "finishedAt": 1755101866087,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "avrpT2hjJCJ1ILFtbVtoh",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/resources/index.de91e.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/index.de91e.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/index.de91e.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/resources/index.de91e.js",
+      "relativePathFromRoot": "/game_test/assets/resources/index.de91e.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101866238,
+    "finishedAt": 1755101866238,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "w6fGTSGe9Fmy2MrzgoPUP",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/main/config.eaa28.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/main/config.eaa28.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/main/config.eaa28.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/main/config.eaa28.json",
+      "relativePathFromRoot": "/game_test/assets/main/config.eaa28.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101866508,
+    "finishedAt": 1755101866508,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "RXpWQOTbRRfEPqzizqkkM",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/resources/import/03/03ccd410a.6845d.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/import/03/03ccd410a.6845d.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/import/03/03ccd410a.6845d.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/resources/import/03/03ccd410a.6845d.json",
+      "relativePathFromRoot": "/game_test/assets/resources/import/03/03ccd410a.6845d.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101866588,
+    "finishedAt": 1755101866588,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "WVnk_rYB4YyZ83pfp7GGh",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/resources/import/07/07c3358d0.40288.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/import/07/07c3358d0.40288.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/import/07/07c3358d0.40288.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/resources/import/07/07c3358d0.40288.json",
+      "relativePathFromRoot": "/game_test/assets/resources/import/07/07c3358d0.40288.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101866867,
+    "finishedAt": 1755101866867,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "SQ6ZS6__FHoWTq4pYSbgq",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json",
+      "relativePathFromRoot": "/game_test/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101868736,
+    "finishedAt": 1755101868736,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "JL2lmCJy4HdQ6PVVOYe-r",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json",
+      "relativePathFromRoot": "/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101869436,
+    "finishedAt": 1755101869436,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "T5M4IlAD66Qq6QdOv8y_t",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json",
+      "relativePathFromRoot": "/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101869497,
+    "finishedAt": 1755101869497,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "UGDWjMr330zhoEickXEFB",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json",
+      "relativePathFromRoot": "/game_test/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101869736,
+    "finishedAt": 1755101869736,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "-GFdvx5H0-XdSbyNRSi5J",
+    "type": "image",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg",
+      "relativePathFromRoot": "/game_test/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101870005,
+    "finishedAt": 1755101870005,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "GYc4_uHVmuppXmdqA153m",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/script/index.45495.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/script/index.45495.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/script/index.45495.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/script/index.45495.js",
+      "relativePathFromRoot": "/game_test/assets/script/index.45495.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101870210,
+    "finishedAt": 1755101870210,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "4KYpJRTzKuTIL8wV_MliP",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/script/config.45495.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/script/config.45495.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/script/config.45495.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/script/config.45495.json",
+      "relativePathFromRoot": "/game_test/assets/script/config.45495.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101870309,
+    "finishedAt": 1755101870309,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "UStX9fkZKpTAV2GFhSU8w",
+    "type": "script",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/index.395f0.js",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/index.395f0.js",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/index.395f0.js",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/index.395f0.js",
+      "relativePathFromRoot": "/game_test/assets/res/index.395f0.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101870553,
+    "finishedAt": 1755101870553,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "yE23vyXaDbHKudDNL7gvc",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/config.395f0.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/config.395f0.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/config.395f0.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/config.395f0.json",
+      "relativePathFromRoot": "/game_test/assets/res/config.395f0.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101871040,
+    "finishedAt": 1755101871040,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "12eRFCAO4-P-Ox-Qh1n8v",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/import/09/09c778936.e349e.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/09/09c778936.e349e.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/09/09c778936.e349e.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/import/09/09c778936.e349e.json",
+      "relativePathFromRoot": "/game_test/assets/res/import/09/09c778936.e349e.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101871190,
+    "finishedAt": 1755101871190,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "nOKnl4msuSvJk8gy6XNxA",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/import/04/04099fc64.90dfb.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/04/04099fc64.90dfb.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/04/04099fc64.90dfb.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/import/04/04099fc64.90dfb.json",
+      "relativePathFromRoot": "/game_test/assets/res/import/04/04099fc64.90dfb.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101871292,
+    "finishedAt": 1755101871292,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "5ANDHzGhz3im5sXde-O5J",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/import/0d/0d4e88c80.47871.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/0d/0d4e88c80.47871.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/0d/0d4e88c80.47871.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/import/0d/0d4e88c80.47871.json",
+      "relativePathFromRoot": "/game_test/assets/res/import/0d/0d4e88c80.47871.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101871349,
+    "finishedAt": 1755101871349,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "4Pq-GzYidG6sLZ1vwpbib",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/import/06/066965090.42a23.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/06/066965090.42a23.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/06/066965090.42a23.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/import/06/066965090.42a23.json",
+      "relativePathFromRoot": "/game_test/assets/res/import/06/066965090.42a23.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101871389,
+    "finishedAt": 1755101871389,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "1xEUI391vjYlJLC96cLdZ",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/import/0b/0bd746c36.813b9.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/0b/0bd746c36.813b9.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/0b/0bd746c36.813b9.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/import/0b/0bd746c36.813b9.json",
+      "relativePathFromRoot": "/game_test/assets/res/import/0b/0bd746c36.813b9.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101871398,
+    "finishedAt": 1755101871398,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "4OsIazYF8e7GeLHo5_D50",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json",
+      "relativePathFromRoot": "/game_test/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101871554,
+    "finishedAt": 1755101871554,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "UEZhMg9oqPKxJsF8ikgOT",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json",
+      "relativePathFromRoot": "/game_test/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101871638,
+    "finishedAt": 1755101871638,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "TLN7VORR4RmeI0kD76pAP",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.a2533.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.a2533.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.a2533.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.a2533.json",
+      "relativePathFromRoot": "/game_test/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.a2533.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101871788,
+    "finishedAt": 1755101871788,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "bAA2OhMwwqcGOmKKEWnMi",
+    "type": "image",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.cb4dd.png",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.cb4dd.png",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.cb4dd.png",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.cb4dd.png",
+      "relativePathFromRoot": "/game_test/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.cb4dd.png"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101871841,
+    "finishedAt": 1755101871841,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "MJu4oOSXTdAClmF7OcO_g",
+    "type": "image",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a3168.png",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a3168.png",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a3168.png",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a3168.png",
+      "relativePathFromRoot": "/game_test/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a3168.png"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101871854,
+    "finishedAt": 1755101871854,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "1Xtn6dqlVQM6-CkzNEVhn",
+    "type": "image",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.4fcb4.png",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.4fcb4.png",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.4fcb4.png",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.4fcb4.png",
+      "relativePathFromRoot": "/game_test/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.4fcb4.png"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101872113,
+    "finishedAt": 1755101872113,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "s6KhQxdjeOKKAQ5KHGCHL",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json",
+      "relativePathFromRoot": "/game_test/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101872338,
+    "finishedAt": 1755101872338,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "8u5zcuHWYzmqaWynsJ9Xs",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json",
+      "relativePathFromRoot": "/game_test/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101872558,
+    "finishedAt": 1755101872558,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "tlZeE403UGFLU57A5Smkn",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.f56a1.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.f56a1.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.f56a1.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.f56a1.json",
+      "relativePathFromRoot": "/game_test/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.f56a1.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101872687,
+    "finishedAt": 1755101872687,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "JiC8-MI3ZM3IYZlD1atBe",
+    "type": "xhr",
+    "url": "https://tf-cdn.shryou.com/game_test/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.5a712.json",
+    "normalized": {
+      "originalUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.5a712.json",
+      "normalizedUrl": "https://tf-cdn.shryou.com/game_test/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.5a712.json",
+      "host": "tf-cdn.shryou.com",
+      "pathname": "/game_test/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.5a712.json",
+      "relativePathFromRoot": "/game_test/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.5a712.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101872755,
+    "finishedAt": 1755101872755,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/game_test/index.html?testMode=1",
+    "originHost": "tf-cdn.shryou.com"
+  },
+  {
+    "id": "uciNhsSJNWKWh2vxBAUA9",
+    "type": "xhr",
+    "url": "https://tf-api.shryou.com/sd/extend?codever=1&gcid=9999&rt=0.6607166392429349",
+    "normalized": {
+      "originalUrl": "https://tf-api.shryou.com/sd/extend?codever=1&gcid=9999&rt=0.6607166392429349",
+      "normalizedUrl": "https://tf-api.shryou.com/sd/extend?codever=1&gcid=9999&rt=0.6607166392429349",
+      "host": "tf-api.shryou.com",
+      "pathname": "/sd/extend",
+      "queryHashSuffix": "__q_2e828219",
+      "relativePathFromRoot": "external/tf-api.shryou.com/sd/extend"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755101873839,
+    "finishedAt": 1755101873839,
+    "state": "success",
+    "referrer": "https://tf-cdn.shryou.com/",
+    "originHost": "tf-api.shryou.com"
+  },
+  {
+    "id": "KZrHUT9E_MJ8sJsSzPW7b",
+    "type": "xhr",
+    "url": "https://tf-api.shryou.com/sd/his_t?gcid=9999&uid=xianyu&rt=0.7811969420298455&linkSign=none",
+    "normalized": {
+      "originalUrl": "https://tf-api.shryou.com/sd/his_t?gcid=9999&uid=xianyu&rt=0.7811969420298455&linkSign=none",
+      "normalizedUrl": "https://tf-api.shryou.com/sd/his_t?gcid=9999&uid=xianyu&rt=0.7811969420298455&linkSign=none",
+      "host": "tf-api.shryou.com",
+      "pathname": "/sd/his_t",
+      "queryHashSuffix": "__q_1642cff4",
+      "relativePathFromRoot": "external/tf-api.shryou.com/sd/his_t"
+    },
+    "method": "GET",
+    "statusCode": 404,
+    "startedAt": 1755101873953,
+    "finishedAt": 1755101873953,
+    "state": "failed",
+    "referrer": "https://tf-cdn.shryou.com/",
+    "originHost": "tf-api.shryou.com"
+  }
+]

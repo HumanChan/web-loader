@@ -2,6 +2,8 @@ import { BrowserWindow, ipcMain } from 'electron';
 import { IPC } from '../../shared/ipc';
 import { SessionManager } from '../session/SessionManager';
 import { ResourceCaptureService } from '../capture/ResourceCaptureService';
+import fs from 'fs-extra';
+import path from 'node:path';
 
 let capture: ResourceCaptureService | null = null;
 
@@ -33,6 +35,21 @@ export function registerMainIpcHandlers(_win: BrowserWindow) {
     SessionManager.stop();
     if (capture) await capture.stop();
     return { ok: true };
+  });
+
+  ipcMain.handle('records:get', async () => {
+    const s = SessionManager.getCurrent();
+    if (!s) return { ok: false, records: [] };
+    try {
+      const idxPath = path.join(s.tempDir, 'index.json');
+      if (await fs.pathExists(idxPath)) {
+        const arr = await fs.readJson(idxPath);
+        return { ok: true, records: arr };
+      }
+      return { ok: true, records: [] };
+    } catch (e) {
+      return { ok: false, records: [] };
+    }
   });
 }
 

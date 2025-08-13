@@ -53,6 +53,7 @@ const styles = {
 export function App() {
   const [url, setUrl] = React.useState('https://example.com');
   const [partition, setPartition] = React.useState<string>('persist:webloader-init');
+  const [navigatedUrl, setNavigatedUrl] = React.useState<string>('about:blank');
   const [timerMs, setTimerMs] = React.useState<number>(0);
   const [isRunning, setIsRunning] = React.useState<boolean>(false);
 
@@ -81,8 +82,7 @@ export function App() {
         <button style={styles.button} onClick={async () => {
           const res = await (window as any).api.invoke(IPC.NavigateTo, { url });
           if (res?.partition) setPartition(res.partition);
-          const webview = document.querySelector('webview') as any;
-          if (webview) webview.src = url;
+          setNavigatedUrl(url);
           setTimerMs(0);
           setIsRunning(true);
         }}>确定</button>
@@ -102,8 +102,13 @@ export function App() {
       </div>
       <div style={styles.webPane}>
         {/* 固定 720x1280 的 webview 容器 */}
-        {/* eslint-disable-next-line react/no-unknown-property */}
-        <webview style={styles.webview as any} partition={webviewPartition} src="about:blank" allowpopups></webview>
+        <webview
+          key={webviewPartition}
+          style={styles.webview as any}
+          partition={webviewPartition}
+          src={navigatedUrl}
+          allowpopups="true"
+        ></webview>
       </div>
       <div style={styles.sidePanel}>
         <h3>控制与状态（占位）</h3>

@@ -6,9 +6,9 @@ import { registerMainIpcHandlers } from './ipc/MainIpcHandlers';
 let mainWindow: BrowserWindow | null = null;
 
 async function createWindow() {
-  const preloadMjs = path.join(__dirname, '../preload/preload.mjs');
+  const preloadCjs = path.join(__dirname, '../preload/index.cjs');
   const preloadJs = path.join(__dirname, '../preload/preload.js');
-  const preloadPath = fs.existsSync(preloadJs) ? preloadJs : preloadMjs;
+  const preloadPath = fs.existsSync(preloadCjs) ? preloadCjs : preloadJs;
   mainWindow = new BrowserWindow({
     width: 1080,
     height: 1380,
