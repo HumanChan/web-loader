@@ -1,6 +1,7 @@
 import { app, BrowserWindow, ipcMain, shell } from 'electron';
 import path from 'node:path';
 import fs from 'node:fs';
+import { registerMainIpcHandlers } from './ipc/MainIpcHandlers';
 
 let mainWindow: BrowserWindow | null = null;
 
@@ -42,6 +43,9 @@ app.on('activate', () => {
   if (BrowserWindow.getAllWindows().length === 0) void createWindow();
 });
 
-app.whenReady().then(() => createWindow());
+app.whenReady().then(async () => {
+  await createWindow();
+  if (mainWindow) registerMainIpcHandlers(mainWindow);
+});
 
 
