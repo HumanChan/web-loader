@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--bg: #0f1115;
+	--panel: #0b0d12;
+	--card: #0e121a;
+	--border: #1e293b;
+	--accent: #7c3aed;
+	--ring: #22d3ee;
+	--muted: #94a3b8;
+}
+
+html, body, #root {
+	height: 100%;
+	margin: 0;
+	background: var(--bg);
+}
+
+.bg-gradient-app {
+	background: linear-gradient(180deg, #0f1115 0%, #0b0d12 100%);
+}
+
+.card {
+	@apply rounded-xl border border-[var(--border)] bg-[color:var(--card)];
+}
+
+.btn {
+	@apply inline-flex items-center justify-center rounded-md border border-[var(--border)] bg-[color:var(--panel)] px-3 h-9 text-sm text-slate-100 hover:bg-slate-800/60 transition-colors;
+}
+
+.input {
+	@apply h-9 w-full rounded-md border border-[var(--border)] bg-[color:var(--panel)] px-3 text-slate-100 placeholder:text-slate-400 outline-none focus-visible:ring-2 focus-visible:ring-[var(--ring)];
+}
+
+.glass {
+	@apply bg-white/5 backdrop-blur-md border border-white/10;
+}
+
+

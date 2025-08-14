@@ -1,11 +1,15 @@
 import React, { useEffect, useMemo } from 'react';
 import { IPC } from '../shared/ipc';
+import { Toolbar } from './components/Toolbar';
+import { ExportCard } from './components/side/ExportCard';
+import { ControlCard } from './components/side/ControlCard';
+import { ProgressCard } from './components/side/ProgressCard';
 
 const styles = {
   root: {
     display: 'grid',
-    gridTemplateColumns: 'minmax(480px, 1fr) 360px',
-    gridTemplateRows: '100px 1fr',
+    gridTemplateColumns: 'minmax(520px, 1fr) 360px',
+    gridTemplateRows: '56px 1fr',
     height: '100vh',
     width: '100vw',
     overflow: 'hidden' as const,
@@ -13,17 +17,7 @@ const styles = {
     color: '#e6e6e6',
     fontFamily: 'ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial',
   },
-  urlBar: {
-    gridColumn: '1 / 2',
-    gridRow: '1 / 2',
-    height: 100,
-    borderBottom: '1px solid #1e293b',
-    boxSizing: 'border-box' as const,
-    padding: '16px 16px',
-    display: 'flex',
-    alignItems: 'center',
-    gap: 8,
-  },
+  urlBar: {},
   webPane: {
     gridColumn: '1 / 2',
     gridRow: '2 / 3',
@@ -111,66 +105,47 @@ export function App() {
   return (
     <div style={styles.root}>
       <div style={styles.urlBar}>
-        <input
-          style={styles.urlInput}
-          value={url}
-          onChange={(e) => setUrl(e.target.value)}
-          placeholder="输入 URL"
+        <Toolbar
+          url={url}
+          setUrl={setUrl}
+          onNavigated={(finalUrl, partitionId) => { if (partitionId) setPartition(partitionId); setNavigatedUrl(finalUrl); }}
+          setIsRunning={setIsRunning}
+          setTimerMs={setTimerMs}
+          setExportDir={setExportDir}
+          setExportProgress={setExportProgress}
         />
-        <button style={styles.button} onClick={async () => {
-          const raw = url.trim();
-          const finalUrl = /^https?:\/\//i.test(raw) ? raw : `https://${raw}`;
-          const res = await (window as any).api.invoke(IPC.NavigateTo, { url: finalUrl });
-          if (res?.partition) setPartition(res.partition);
-          setNavigatedUrl(finalUrl);
-          setTimerMs(0);
-          setIsRunning(true);
-        }}>确定</button>
-        <button style={styles.button} onClick={async () => {
-          const res = await (window as any).api.invoke(IPC.ExportChooseTargetDir);
-          if (!res?.canceled && res?.directory) setExportDir(res.directory);
-        }}>选择目录</button>
-        <button style={styles.button} onClick={async () => {
-          setExportProgress({ total: 0, completed: 0, failed: 0, bytesTotal: 0, bytesCompleted: 0 });
-          (window as any).api.on(IPC.ExportProgress, (p: any) => setExportProgress(p));
-          await (window as any).api.invoke(IPC.ExportRun, {});
-          setIsRunning(false);
-          setTimerMs(0);
-        }}>导出</button>
-        <button style={styles.button} onClick={async () => {
-          await (window as any).api.invoke(IPC.PauseCapture);
-          setIsRunning(false);
-        }}>暂停</button>
-        <button style={styles.button} onClick={async () => {
-          await (window as any).api.invoke(IPC.ResumeCapture);
-          setIsRunning(true);
-        }}>继续</button>
-        <button style={styles.button} onClick={async () => {
-          await (window as any).api.invoke(IPC.StopCapture);
-          setIsRunning(false);
-          setTimerMs(0);
-        }}>停止</button>
       </div>
       <div style={styles.webPane}>
-        <webview
-          key={webviewPartition}
-          style={styles.webview as any}
-          partition={webviewPartition}
-          src={navigatedUrl}
-          allowpopups={true}
-        ></webview>
+        {navigatedUrl === 'about:blank' ? (
+          <div className="w-full h-full grid place-items-center text-slate-400">
+            <div className="text-center">
+              <div className="text-sm opacity-80">尚未加载页面</div>
+              <div className="text-xs opacity-60 mt-2">请输入 URL 并点击“确定”开始捕获</div>
+            </div>
+          </div>
+        ) : (
+          <webview
+            key={webviewPartition}
+            style={styles.webview as any}
+            partition={webviewPartition}
+            src={navigatedUrl}
+            allowpopups={true}
+          ></webview>
+        )}
       </div>
       <div style={styles.sidePanel}>
-        <h3 style={styles.panelTitle as any}>控制与状态</h3>
-        <p>计时器：{Math.floor(timerMs / 1000)} s</p>
-        <p>导出目录：{exportDir || '未选择'}</p>
-        {exportProgress && (
-          <p>导出进度：{exportProgress.completed}/{exportProgress.total}（失败 {exportProgress.failed}）</p>
-        )}
-        <div style={{ marginTop: 12 }}>
-          <span style={styles.badge as any}>视图：填满左侧窗口区域（自适应，无滚动）</span>
-        </div>
-        <p style={{ opacity: 0.75, marginTop: 16 }}>右侧面板将在后续阶段填充：导出、路径、筛选/搜索、列表、统计与进度。</p>
+        <ExportCard
+          exportDir={exportDir}
+          setExportDir={setExportDir}
+          setExportProgress={setExportProgress}
+          setIsRunning={setIsRunning}
+          setTimerMs={setTimerMs}
+        />
+        <ControlCard
+          timerSec={Math.floor(timerMs / 1000)}
+          setIsRunning={setIsRunning}
+        />
+        <ProgressCard progress={exportProgress} />
       </div>
     </div>
   );
