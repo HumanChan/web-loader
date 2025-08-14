@@ -1,0 +1,36 @@
+
+> web-loader@0.1.0 dev /Users/humanchan/WorkSpace/web-loader
+> electron-vite dev
+
+vite v5.4.19 building SSR bundle for development...
+transforming...
+✓ 5 modules transformed.
+rendering chunks...
+dist/main/main.js  4.03 kB
+✓ built in 153ms
+
+build the electron main process successfully
+
+-----
+
+vite v5.4.19 building SSR bundle for development...
+transforming...
+✓ 1 modules transformed.
+rendering chunks...
+dist/preload/preload.mjs  0.34 kB
+✓ built in 15ms
+
+build the electron preload files successfully
+
+-----
+
+dev server running for the electron renderer process at:
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+start electron app...
+
+[19618:0813/235536.380180:ERROR:CONSOLE(1)] "Request Autofill.enable failed. {"code":-32601,"message":"'Autofill.enable' wasn't found"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+2025-08-13 23:55:38.486 Electron[19618:119812] error messaging the mach port for IMKCFRunLoopWakeUpReliable
+11:56:47 PM [vite] hmr update /App.tsx
