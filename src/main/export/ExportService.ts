@@ -32,11 +32,17 @@ export const ExportService = {
     let bytesCompleted = 0;
 
     const report = () => onProgress?.({ total, completed, failed, bytesTotal, bytesCompleted });
+
+    const missingLogs: Array<{ id: string; url: string; type: string; rel: string; reason: string; message?: string }>= [];
     report();
 
     for (const r of records) {
-      // 仅排除文档与 WebSocket（ws 不会出现在记录中）；其余包括 xhr/json/audio 等均导出
-      if (r.type === 'document') continue;
+      // 仅排除文档；其余包括 xhr/json/audio 等均导出
+      if (r.type === 'document') {
+        // 记录非缺失原因的跳过，帮助排查
+        missingLogs.push({ id: r.id, url: r.url, type: r.type, rel: r.normalized.relativePathFromRoot, reason: 'skipped:document' });
+        continue;
+      }
       try {
         const rel = r.normalized.relativePathFromRoot;
         const fileName = path.basename(rel);
@@ -118,7 +124,9 @@ export const ExportService = {
               }).catch(() => 0);
             }
           })();
-          if (downloaded > 0) srcPath = tmpFile;
+          if (downloaded > 0) srcPath = tmpFile; else {
+            missingLogs.push({ id: r.id, url: r.url, type: r.type, rel: finalRel, reason: 'download-failed' });
+          }
         }
 
         if (srcPath && (await fs.pathExists(srcPath))) {
@@ -140,9 +148,11 @@ export const ExportService = {
           completed += 1;
         } else {
           failed += 1;
+          missingLogs.push({ id: r.id, url: r.url, type: r.type, rel: finalRel, reason: 'no-source-file' });
         }
-      } catch {
+      } catch (e: any) {
         failed += 1;
+        missingLogs.push({ id: r.id, url: r.url, type: r.type, rel: r.normalized.relativePathFromRoot, reason: 'exception', message: String(e?.message || e) });
       }
       report();
     }
@@ -150,6 +160,14 @@ export const ExportService = {
     try {
       const idxPath = path.join(tempDir, 'index.json');
       await fs.writeJson(idxPath, records, { spaces: 2 });
+    } catch {}
+    // 输出缺失日志
+    try {
+      if (missingLogs.length > 0) {
+        const logPath = path.join(targetDir, 'missing.log');
+        const lines = missingLogs.map((m) => JSON.stringify(m)).join('\n');
+        await fs.writeFile(logPath, lines, 'utf8');
+      }
     } catch {}
   },
 };
