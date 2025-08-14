@@ -1,11 +1,15 @@
 <!doctype html>
 <html>
   <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' http://localhost:5173 ws://localhost:5173; img-src * data: blob:; media-src * data: blob:;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' http://localhost:5173 ws://localhost:5173; frame-src http: https: data: blob: *; img-src * data: blob:; media-src * data: blob:;">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Loader</title>
+    <style>
+      html, body { margin: 0; padding: 0; overflow: hidden; background: #0f1115; }
+      * { box-sizing: border-box; }
+    </style>
   </head>
   <body>
     <div id="root"></div>

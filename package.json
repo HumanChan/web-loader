@@ -9,7 +9,10 @@
     "dev": "electron-vite dev",
     "build": "electron-vite build",
     "preview": "electron-vite preview",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "pack:win": "electron-builder --win --x64",
+    "pack:mac": "electron-builder --mac",
+    "pack:linux": "electron-builder --linux"
   },
   "dependencies": {
     "electron-store": "^9.0.0",
@@ -27,6 +30,32 @@
     "@vitejs/plugin-react": "^4.1.0",
     "electron": "29",
     "electron-vite": "^2.3.0",
+    "electron-builder": "^24.13.3",
     "typescript": "^5.4.0"
+  }
+  ,
+  "build": {
+    "appId": "com.example.webloader",
+    "files": [
+      "dist/**",
+      "package.json"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "extraMetadata": {
+      "main": "dist/main/main.js"
+    },
+    "mac": {
+      "target": ["dmg", "zip"],
+      "category": "public.app-category.productivity"
+    },
+    "win": {
+      "target": ["nsis", "zip"]
+    },
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "category": "Utility"
+    }
   }
 }

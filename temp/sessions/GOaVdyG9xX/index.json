@@ -1,0 +1,1384 @@
+[
+  {
+    "id": "wW5Mc3RCMIlu4rfQwmEzm",
+    "type": "other",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html",
+      "queryHashSuffix": "__q_359c79ac",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179585,
+    "finishedAt": 1755153179585,
+    "state": "success",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "XMJJVx5nOicLPNzJKEORl",
+    "type": "stylesheet",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/style.css?v=1",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/style.css?v=1",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/style.css?v=1",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/style.css",
+      "queryHashSuffix": "__q_38609a28",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/style.css"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179597,
+    "finishedAt": 1755153179597,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "ge32H7O1rX84VNwy6qHkk",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/fp.min.a2e6a.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/fp.min.a2e6a.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/fp.min.a2e6a.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/fp.min.a2e6a.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/fp.min.a2e6a.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179599,
+    "finishedAt": 1755153179599,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "VVByrgE0AihS79aWZcZJc",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/sdk/xyMini.js?v=1.5",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/sdk/xyMini.js?v=1.5",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/sdk/xyMini.js?v=1.5",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/sdk/xyMini.js",
+      "queryHashSuffix": "__q_204880b4",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/sdk/xyMini.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179599,
+    "finishedAt": 1755153179599,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "cMHILZm0hU6EjODAUDrN-",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/polyfills.bundle.5adbf.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/polyfills.bundle.5adbf.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/polyfills.bundle.5adbf.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/polyfills.bundle.5adbf.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/polyfills.bundle.5adbf.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179600,
+    "finishedAt": 1755153179600,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "DYOVBfoW2Y79vvNacFnB2",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/system.bundle.543e6.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/system.bundle.543e6.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/system.bundle.543e6.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/system.bundle.543e6.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/system.bundle.543e6.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179600,
+    "finishedAt": 1755153179600,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "_AXxJjLTuRnXsIthpDoPy",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/sdk/js/xiaoyou.js?v=0.610473788514104",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/sdk/js/xiaoyou.js?v=0.610473788514104",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/sdk/js/xiaoyou.js?v=0.610473788514104",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/sdk/js/xiaoyou.js",
+      "queryHashSuffix": "__q_d62c7a4f",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/sdk/js/xiaoyou.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179608,
+    "finishedAt": 1755153179608,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "ERCbFGekvtpwj-s6ReWe7",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/import-map.b7c9e.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/import-map.b7c9e.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/import-map.b7c9e.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/import-map.b7c9e.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/import-map.b7c9e.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179617,
+    "finishedAt": 1755153179617,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "I9jmjz_vNGb9Ztpoc1Upm",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.9e502.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.9e502.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.9e502.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.9e502.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.9e502.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179619,
+    "finishedAt": 1755153179619,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "f6b3aOwpYEg0id5ZKAcf7",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/application.12d43.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/application.12d43.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/application.12d43.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/application.12d43.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/application.12d43.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179622,
+    "finishedAt": 1755153179622,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "-Tzn8glzljb94jQBauiST",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/cc.7fe31.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/cc.7fe31.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/cc.7fe31.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/cc.7fe31.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/cc.7fe31.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179625,
+    "finishedAt": 1755153179625,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "iRBXY4FPhtwai3jYm3FA2",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/_virtual_cc-CNBl4e8U.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/_virtual_cc-CNBl4e8U.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/_virtual_cc-CNBl4e8U.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/_virtual_cc-CNBl4e8U.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/_virtual_cc-CNBl4e8U.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179684,
+    "finishedAt": 1755153179684,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "2bf-haFrzLdMZXdNkPqHB",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/settings.81ffe.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/settings.81ffe.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/settings.81ffe.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/settings.81ffe.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/settings.81ffe.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179761,
+    "finishedAt": 1755153179761,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "9AL1-8KjP9HWZP7Wmj6ul",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179840,
+    "finishedAt": 1755153179840,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "j1nC1W9TxWLNXsEglYzMm",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/spine-B64FaKrv.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/spine-B64FaKrv.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/spine-B64FaKrv.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/spine-B64FaKrv.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/spine-B64FaKrv.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179840,
+    "finishedAt": 1755153179840,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "XS8_YYLs3nBEpNM5HhPk6",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179841,
+    "finishedAt": 1755153179841,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "gYim97B7MFOpOY7HfjJkD",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/spine.wasm-CtVR3wdA.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/spine.wasm-CtVR3wdA.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/spine.wasm-CtVR3wdA.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/spine.wasm-CtVR3wdA.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/spine.wasm-CtVR3wdA.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179841,
+    "finishedAt": 1755153179841,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "4BVjS2cb9lClNlv1wdLaF",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179874,
+    "finishedAt": 1755153179874,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "Al6S6dL3tup_RAUV01bRD",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/assets/spine-BUh5FZoK.wasm",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/assets/spine-BUh5FZoK.wasm",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/assets/spine-BUh5FZoK.wasm",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/assets/spine-BUh5FZoK.wasm",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/cocos-js/assets/spine-BUh5FZoK.wasm"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179875,
+    "finishedAt": 1755153179875,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "5jdhtVP_T5r8FPhLVB_MO",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/effect.bin",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/effect.bin",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/effect.bin",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/effect.bin",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/effect.bin"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179888,
+    "finishedAt": 1755153179888,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "vbaav_sgcgoKwql36eazO",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/chunks/bundle.6f102.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/chunks/bundle.6f102.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/chunks/bundle.6f102.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/chunks/bundle.6f102.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/chunks/bundle.6f102.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179918,
+    "finishedAt": 1755153179918,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "FfbbYNvSsTPcoYx3ZLNPh",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/config.9464b.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/config.9464b.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/config.9464b.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/config.9464b.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/config.9464b.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179927,
+    "finishedAt": 1755153179927,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "nTrihDKh95wK2DKyR014s",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/index.9464b.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/index.9464b.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/index.9464b.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/index.9464b.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/index.9464b.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179928,
+    "finishedAt": 1755153179928,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "KRmDZkCeeYp62IrrbGTUu",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/import/07/0765ff2cb.a430b.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/import/07/0765ff2cb.a430b.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/import/07/0765ff2cb.a430b.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/import/07/0765ff2cb.a430b.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/internal/import/07/0765ff2cb.a430b.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179959,
+    "finishedAt": 1755153179959,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "5A5iWT2SaEXDf7XCWzZZ7",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179979,
+    "finishedAt": 1755153179979,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "nCbKTy9P1FYoji8O3zUh_",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/jszip/jszip.5450c.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/jszip/jszip.5450c.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/jszip/jszip.5450c.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/jszip/jszip.5450c.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/jszip/jszip.5450c.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179992,
+    "finishedAt": 1755153179992,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "lntKuqmKXENDHeWFZNSVB",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/long/long.a78c5.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/long/long.a78c5.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/long/long.a78c5.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/long/long.a78c5.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/long/long.a78c5.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153179998,
+    "finishedAt": 1755153179998,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "tUPoIGBxYZLPYHE5wTwLg",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/protobuf/protobuf.405b6.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/protobuf/protobuf.405b6.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/protobuf/protobuf.405b6.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/protobuf/protobuf.405b6.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/src/assets/script/thirdy/protobuf/protobuf.405b6.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153180008,
+    "finishedAt": 1755153180008,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "6GgWBcNSIcugl6P5iRRG_",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/config.de91e.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/config.de91e.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/config.de91e.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/config.de91e.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/config.de91e.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153180013,
+    "finishedAt": 1755153180013,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "ptZ0yTrWh9O4_dTDYtklf",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/config.eaa28.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/config.eaa28.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/config.eaa28.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/config.eaa28.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/config.eaa28.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153180014,
+    "finishedAt": 1755153180014,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "kGPvAqaqZjLIW1AIrlnCD",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/index.de91e.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/index.de91e.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/index.de91e.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/index.de91e.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/index.de91e.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153180017,
+    "finishedAt": 1755153180017,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "B9zgpdlJ6fx4Bg7nNSUG5",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/index.eaa28.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/index.eaa28.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/index.eaa28.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/index.eaa28.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/index.eaa28.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153180020,
+    "finishedAt": 1755153180020,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "N3ymJcznsdDzBdHdSYGm7",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/07/07c3358d0.40288.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/07/07c3358d0.40288.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/07/07c3358d0.40288.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/07/07c3358d0.40288.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/07/07c3358d0.40288.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153180047,
+    "finishedAt": 1755153180047,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "2wcxxLX8OqTzQsPnYQsZ7",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/03/03ccd410a.6845d.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/03/03ccd410a.6845d.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/03/03ccd410a.6845d.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/03/03ccd410a.6845d.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/03/03ccd410a.6845d.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153180047,
+    "finishedAt": 1755153180047,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "_nB1FDjLmQvdauemZYDCb",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181568,
+    "finishedAt": 1755153181568,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "iALyf5z0UpT_TXcAbjSNf",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181572,
+    "finishedAt": 1755153181572,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "s4EQwFhim4YcMLZg_k3qx",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181576,
+    "finishedAt": 1755153181576,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "Ic2lNVI_UHBRbP6t2_rk9",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181577,
+    "finishedAt": 1755153181577,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "FIigPm0v-NoS26pkgcMYy",
+    "type": "image",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181581,
+    "finishedAt": 1755153181581,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "gQm4tIUMOJbvw9Y0duSAr",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/script/config.0b5c0.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/script/config.0b5c0.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/script/config.0b5c0.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/script/config.0b5c0.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/script/config.0b5c0.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181632,
+    "finishedAt": 1755153181632,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "_xewVDIGgRkVoJXabwrs7",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/script/index.0b5c0.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/script/index.0b5c0.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/script/index.0b5c0.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/script/index.0b5c0.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/script/index.0b5c0.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181720,
+    "finishedAt": 1755153181720,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "FB0oiH7hMu7sVPZ9Rl3Gl",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/config.f4c76.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/config.f4c76.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/config.f4c76.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/config.f4c76.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/config.f4c76.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181834,
+    "finishedAt": 1755153181834,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "WYDKiKuOS4-xh1pLsK-iB",
+    "type": "script",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/index.f4c76.js",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/index.f4c76.js",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/index.f4c76.js",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/index.f4c76.js",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/index.f4c76.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181836,
+    "finishedAt": 1755153181836,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "7FkT4HUVarqA0n4qBXzYU",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/09/09c778936.3e785.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/09/09c778936.3e785.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/09/09c778936.3e785.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/09/09c778936.3e785.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/09/09c778936.3e785.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181857,
+    "finishedAt": 1755153181857,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "7bKeozrBVcNM1CenYOX8X",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0d/0d4e88c80.693d2.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0d/0d4e88c80.693d2.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0d/0d4e88c80.693d2.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0d/0d4e88c80.693d2.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0d/0d4e88c80.693d2.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181860,
+    "finishedAt": 1755153181860,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "W0pm7jAM1nkp6-ew6X4Tr",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0b/0bd746c36.0ab9c.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0b/0bd746c36.0ab9c.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0b/0bd746c36.0ab9c.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0b/0bd746c36.0ab9c.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0b/0bd746c36.0ab9c.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181862,
+    "finishedAt": 1755153181862,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "FIjOiGzW9H3cVZHuy4jB7",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/04/04099fc64.32c5a.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/04/04099fc64.32c5a.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/04/04099fc64.32c5a.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/04/04099fc64.32c5a.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/04/04099fc64.32c5a.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181872,
+    "finishedAt": 1755153181872,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "xKUmATMPkttfcRqQuRtX9",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/06/066965090.42a23.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/06/066965090.42a23.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/06/066965090.42a23.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/06/066965090.42a23.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/06/066965090.42a23.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181873,
+    "finishedAt": 1755153181873,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "MKyrq5MEmuPPOy-mh43Av",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.a2533.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.a2533.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.a2533.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.a2533.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.a2533.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181880,
+    "finishedAt": 1755153181880,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "2iJjwqFMA4F9DPwcQvub9",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181881,
+    "finishedAt": 1755153181881,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "EsM2tYImsd0mHDQPOdcqZ",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181881,
+    "finishedAt": 1755153181881,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "TGynAQeQXKXdaWHMUBKEu",
+    "type": "image",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.4fcb4.png",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.4fcb4.png",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.4fcb4.png",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.4fcb4.png",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.4fcb4.png"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181884,
+    "finishedAt": 1755153181884,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "twuE7jV48yj2ubcGA6kjk",
+    "type": "image",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.5c808.png",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.5c808.png",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.5c808.png",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.5c808.png",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.5c808.png"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181890,
+    "finishedAt": 1755153181890,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "xzmUBE9IDAHy5kpuCR6B7",
+    "type": "image",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.e1ccf.png",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.e1ccf.png",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.e1ccf.png",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.e1ccf.png",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.e1ccf.png"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153181894,
+    "finishedAt": 1755153181894,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "I7MK3bmjtDEawRmsy0FLx",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182003,
+    "finishedAt": 1755153182003,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "C9gidO9aaY90VWkM-q7wU",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182014,
+    "finishedAt": 1755153182014,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "2Ct_LvdfbsHcM5heEa9aa",
+    "type": "xhr",
+    "url": "http://192.168.1.67:8800/api/v1/log?code=1&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+    "normalized": {
+      "originalUrl": "http://192.168.1.67:8800/api/v1/log?code=1&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+      "normalizedUrl": "http://192.168.1.67:8800/api/v1/log?code=1&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+      "host": "192.168.1.67",
+      "pathname": "/api/v1/log",
+      "queryHashSuffix": "__q_1d7d2e4e",
+      "relativePathFromRoot": "external/192.168.1.67/api/v1/log"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182037,
+    "finishedAt": 1755153182037,
+    "state": "success",
+    "referrer": "http://192.168.5.145/",
+    "originHost": "192.168.1.67"
+  },
+  {
+    "id": "Pi5BsEBYlxlBTFSeuWLRn",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/90/90ad71cb-57e4-47e0-8e90-9975c88b3ff0.ca87c.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/90/90ad71cb-57e4-47e0-8e90-9975c88b3ff0.ca87c.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/90/90ad71cb-57e4-47e0-8e90-9975c88b3ff0.ca87c.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/90/90ad71cb-57e4-47e0-8e90-9975c88b3ff0.ca87c.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/90/90ad71cb-57e4-47e0-8e90-9975c88b3ff0.ca87c.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182040,
+    "finishedAt": 1755153182040,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "MdDa4kLxLTCKGKEsC4hRl",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.52d1b.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.52d1b.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.52d1b.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.52d1b.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.52d1b.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182056,
+    "finishedAt": 1755153182056,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "27BuSECyNz3_slnpD8PAK",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.a2533.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.a2533.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.a2533.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.a2533.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.a2533.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182070,
+    "finishedAt": 1755153182070,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "CITW1xHf3pzG65poGUpVV",
+    "type": "image",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.782f6.png",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.782f6.png",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.782f6.png",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.782f6.png",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/native/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.782f6.png"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182076,
+    "finishedAt": 1755153182076,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "WNlyj8RlqNd4Zf2zKnP9e",
+    "type": "xhr",
+    "url": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.5a712.json",
+    "normalized": {
+      "originalUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.5a712.json",
+      "normalizedUrl": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.5a712.json",
+      "host": "192.168.5.145",
+      "pathname": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.5a712.json",
+      "relativePathFromRoot": "/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.5a712.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182111,
+    "finishedAt": 1755153182111,
+    "state": "success",
+    "referrer": "http://192.168.5.145/work/tafang/client/branches/Banshu/TaFang/build/web-mobile/index.html?cfgTag=banshu",
+    "originHost": "192.168.5.145"
+  },
+  {
+    "id": "AviJcNX-YV5lFfnGZsmk3",
+    "type": "xhr",
+    "url": "http://192.168.1.67:8800/api/v1/log?code=2&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+    "normalized": {
+      "originalUrl": "http://192.168.1.67:8800/api/v1/log?code=2&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+      "normalizedUrl": "http://192.168.1.67:8800/api/v1/log?code=2&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+      "host": "192.168.1.67",
+      "pathname": "/api/v1/log",
+      "queryHashSuffix": "__q_ee3f93d4",
+      "relativePathFromRoot": "external/192.168.1.67/api/v1/log"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182113,
+    "finishedAt": 1755153182113,
+    "state": "success",
+    "referrer": "http://192.168.5.145/",
+    "originHost": "192.168.1.67"
+  },
+  {
+    "id": "uyeJhw4J3Rppxo0RszdnP",
+    "type": "xhr",
+    "url": "http://192.168.1.67:8800/api/v1/log?code=6&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+    "normalized": {
+      "originalUrl": "http://192.168.1.67:8800/api/v1/log?code=6&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+      "normalizedUrl": "http://192.168.1.67:8800/api/v1/log?code=6&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+      "host": "192.168.1.67",
+      "pathname": "/api/v1/log",
+      "queryHashSuffix": "__q_1e52a7f0",
+      "relativePathFromRoot": "external/192.168.1.67/api/v1/log"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182113,
+    "finishedAt": 1755153182113,
+    "state": "success",
+    "referrer": "http://192.168.5.145/",
+    "originHost": "192.168.1.67"
+  },
+  {
+    "id": "rBgMfkm0IzxUvtDVAjdIA",
+    "type": "xhr",
+    "url": "http://192.168.1.67:8800/api/v1/log?code=4&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+    "normalized": {
+      "originalUrl": "http://192.168.1.67:8800/api/v1/log?code=4&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+      "normalizedUrl": "http://192.168.1.67:8800/api/v1/log?code=4&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+      "host": "192.168.1.67",
+      "pathname": "/api/v1/log",
+      "queryHashSuffix": "__q_e32f17a4",
+      "relativePathFromRoot": "external/192.168.1.67/api/v1/log"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182114,
+    "finishedAt": 1755153182114,
+    "state": "success",
+    "referrer": "http://192.168.5.145/",
+    "originHost": "192.168.1.67"
+  },
+  {
+    "id": "07YnsVclTfbZNd0vxz__l",
+    "type": "xhr",
+    "url": "http://192.168.1.67:8800/api/v1/log?code=5&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+    "normalized": {
+      "originalUrl": "http://192.168.1.67:8800/api/v1/log?code=5&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+      "normalizedUrl": "http://192.168.1.67:8800/api/v1/log?code=5&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+      "host": "192.168.1.67",
+      "pathname": "/api/v1/log",
+      "queryHashSuffix": "__q_a20ecfad",
+      "relativePathFromRoot": "external/192.168.1.67/api/v1/log"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182114,
+    "finishedAt": 1755153182114,
+    "state": "success",
+    "referrer": "http://192.168.5.145/",
+    "originHost": "192.168.1.67"
+  },
+  {
+    "id": "igHyUufIXK87h9qNw2IRH",
+    "type": "xhr",
+    "url": "http://192.168.1.67:8800/api/v1/log?code=3&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+    "normalized": {
+      "originalUrl": "http://192.168.1.67:8800/api/v1/log?code=3&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+      "normalizedUrl": "http://192.168.1.67:8800/api/v1/log?code=3&server_id=0&nid=0&gcid=0&uid=f03eaf8e0fa6461372e487e11c36d9ec&player_id=0",
+      "host": "192.168.1.67",
+      "pathname": "/api/v1/log",
+      "queryHashSuffix": "__q_581042e0",
+      "relativePathFromRoot": "external/192.168.1.67/api/v1/log"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182114,
+    "finishedAt": 1755153182114,
+    "state": "success",
+    "referrer": "http://192.168.5.145/",
+    "originHost": "192.168.1.67"
+  },
+  {
+    "id": "XV3UArTrzOEkZIgIvBwye",
+    "type": "xhr",
+    "url": "http://192.168.1.67:8800/api/v1/log?code=7&server_id=0&nid=0&gcid=9999&uid=xianyu&player_id=0",
+    "normalized": {
+      "originalUrl": "http://192.168.1.67:8800/api/v1/log?code=7&server_id=0&nid=0&gcid=9999&uid=xianyu&player_id=0",
+      "normalizedUrl": "http://192.168.1.67:8800/api/v1/log?code=7&server_id=0&nid=0&gcid=9999&uid=xianyu&player_id=0",
+      "host": "192.168.1.67",
+      "pathname": "/api/v1/log",
+      "queryHashSuffix": "__q_9ca6836d",
+      "relativePathFromRoot": "external/192.168.1.67/api/v1/log"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182115,
+    "finishedAt": 1755153182115,
+    "state": "success",
+    "referrer": "http://192.168.5.145/",
+    "originHost": "192.168.1.67"
+  },
+  {
+    "id": "vYRvG2xDYtQdx5nW-6stX",
+    "type": "xhr",
+    "url": "http://192.168.1.67:8800/api/v1/log?code=8&server_id=0&nid=0&gcid=9999&uid=xianyu&player_id=0",
+    "normalized": {
+      "originalUrl": "http://192.168.1.67:8800/api/v1/log?code=8&server_id=0&nid=0&gcid=9999&uid=xianyu&player_id=0",
+      "normalizedUrl": "http://192.168.1.67:8800/api/v1/log?code=8&server_id=0&nid=0&gcid=9999&uid=xianyu&player_id=0",
+      "host": "192.168.1.67",
+      "pathname": "/api/v1/log",
+      "queryHashSuffix": "__q_05ffd09c",
+      "relativePathFromRoot": "external/192.168.1.67/api/v1/log"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182115,
+    "finishedAt": 1755153182115,
+    "state": "success",
+    "referrer": "http://192.168.5.145/",
+    "originHost": "192.168.1.67"
+  },
+  {
+    "id": "qtLTgHPTHcX1_WKsZJg6L",
+    "type": "xhr",
+    "url": "http://192.168.53.50:9667/sd/extend?codever=1&gcid=9999&rt=0.8162214361711944",
+    "normalized": {
+      "originalUrl": "http://192.168.53.50:9667/sd/extend?codever=1&gcid=9999&rt=0.8162214361711944",
+      "normalizedUrl": "http://192.168.53.50:9667/sd/extend?codever=1&gcid=9999&rt=0.8162214361711944",
+      "host": "192.168.53.50",
+      "pathname": "/sd/extend",
+      "queryHashSuffix": "__q_b3e5c778",
+      "relativePathFromRoot": "external/192.168.53.50/sd/extend"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182118,
+    "finishedAt": 1755153182118,
+    "state": "success",
+    "referrer": "http://192.168.5.145/",
+    "originHost": "192.168.53.50"
+  },
+  {
+    "id": "b8LZ1TRT3FqWVkMHSSgyf",
+    "type": "xhr",
+    "url": "http://192.168.53.50:9667/sd/his?gcid=9999&uid=xianyu&rt=0.7799777354414938",
+    "normalized": {
+      "originalUrl": "http://192.168.53.50:9667/sd/his?gcid=9999&uid=xianyu&rt=0.7799777354414938",
+      "normalizedUrl": "http://192.168.53.50:9667/sd/his?gcid=9999&uid=xianyu&rt=0.7799777354414938",
+      "host": "192.168.53.50",
+      "pathname": "/sd/his",
+      "queryHashSuffix": "__q_4bdf45c2",
+      "relativePathFromRoot": "external/192.168.53.50/sd/his"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182120,
+    "finishedAt": 1755153182120,
+    "state": "success",
+    "referrer": "http://192.168.5.145/",
+    "originHost": "192.168.53.50"
+  },
+  {
+    "id": "lzxTKdxTX2wWW7Cb_vY25",
+    "type": "xhr",
+    "url": "http://192.168.1.67:8800/api/v1/log?code=9&server_id=1&nid=5&gcid=9999&uid=xianyu&player_id=0",
+    "normalized": {
+      "originalUrl": "http://192.168.1.67:8800/api/v1/log?code=9&server_id=1&nid=5&gcid=9999&uid=xianyu&player_id=0",
+      "normalizedUrl": "http://192.168.1.67:8800/api/v1/log?code=9&server_id=1&nid=5&gcid=9999&uid=xianyu&player_id=0",
+      "host": "192.168.1.67",
+      "pathname": "/api/v1/log",
+      "queryHashSuffix": "__q_26000445",
+      "relativePathFromRoot": "external/192.168.1.67/api/v1/log"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755153182122,
+    "finishedAt": 1755153182122,
+    "state": "success",
+    "referrer": "http://192.168.5.145/",
+    "originHost": "192.168.1.67"
+  }
+]

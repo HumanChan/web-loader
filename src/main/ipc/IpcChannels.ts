@@ -1,10 +1,5 @@
-export const IPC = {
-  StartCapture: 'capture:start',
-  PauseCapture: 'capture:pause',
-  ResumeCapture: 'capture:resume',
-  StopCapture: 'capture:stop',
-} as const;
-
-export type IpcChannel = typeof IPC[keyof typeof IPC];
+// Re-export from shared to ensure single source of truth
+export { IPC } from '../../shared/ipc';
+export type { IpcChannel } from '../../shared/ipc';
 
 

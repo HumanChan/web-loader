@@ -1,0 +1,1203 @@
+[
+  {
+    "id": "JDufic9Zv4cveTy4bAESe",
+    "type": "other",
+    "url": "http://192.168.53.32/tafang/trunk/index.html",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/index.html",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/index.html",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/index.html",
+      "relativePathFromRoot": "/tafang/trunk/index.html"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469371,
+    "finishedAt": 1755171469371,
+    "state": "success",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "fCGlsgHNuIat9e9p4-q_e",
+    "type": "stylesheet",
+    "url": "http://192.168.53.32/tafang/trunk/style.css?v=1",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/style.css?v=1",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/style.css?v=1",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/style.css",
+      "queryHashSuffix": "__q_38609a28",
+      "relativePathFromRoot": "/tafang/trunk/style.css"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469376,
+    "finishedAt": 1755171469376,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "e8kjTHCnWQ-eOdNxslqvJ",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/fp.min.87286.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/fp.min.87286.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/fp.min.87286.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/fp.min.87286.js",
+      "relativePathFromRoot": "/tafang/trunk/fp.min.87286.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469382,
+    "finishedAt": 1755171469382,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "GC99CnfyteulOQGyR57Xd",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/sdk/xyMini.js?v=1.5",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/sdk/xyMini.js?v=1.5",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/sdk/xyMini.js?v=1.5",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/sdk/xyMini.js",
+      "queryHashSuffix": "__q_204880b4",
+      "relativePathFromRoot": "/tafang/trunk/sdk/xyMini.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469383,
+    "finishedAt": 1755171469383,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "fgGKU0VMSM3w6Ep2sp8Ne",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/src/polyfills.bundle.5adbf.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/src/polyfills.bundle.5adbf.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/src/polyfills.bundle.5adbf.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/src/polyfills.bundle.5adbf.js",
+      "relativePathFromRoot": "/tafang/trunk/src/polyfills.bundle.5adbf.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469383,
+    "finishedAt": 1755171469383,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "UNyrLL8-YUIiAUXKksi_j",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/src/system.bundle.543e6.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/src/system.bundle.543e6.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/src/system.bundle.543e6.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/src/system.bundle.543e6.js",
+      "relativePathFromRoot": "/tafang/trunk/src/system.bundle.543e6.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469384,
+    "finishedAt": 1755171469384,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "u2K6iuN1Y414PbRjif2Qj",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/sdk/js/xiaoyou.js?v=0.5412094142935702",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/sdk/js/xiaoyou.js?v=0.5412094142935702",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/sdk/js/xiaoyou.js?v=0.5412094142935702",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/sdk/js/xiaoyou.js",
+      "queryHashSuffix": "__q_cf6c7e1c",
+      "relativePathFromRoot": "/tafang/trunk/sdk/js/xiaoyou.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469392,
+    "finishedAt": 1755171469392,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "PMUQWQlpo371cyjcO4qj9",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/src/import-map.b8e93.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/src/import-map.b8e93.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/src/import-map.b8e93.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/src/import-map.b8e93.json",
+      "relativePathFromRoot": "/tafang/trunk/src/import-map.b8e93.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469396,
+    "finishedAt": 1755171469396,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "usrfwQrP9pVgnxnRjEMKm",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/index.530f5.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/index.530f5.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/index.530f5.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/index.530f5.js",
+      "relativePathFromRoot": "/tafang/trunk/index.530f5.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469399,
+    "finishedAt": 1755171469399,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "fRanPUGh86C383rEvlJtw",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/application.b7186.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/application.b7186.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/application.b7186.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/application.b7186.js",
+      "relativePathFromRoot": "/tafang/trunk/application.b7186.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469402,
+    "finishedAt": 1755171469402,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "ZsAArv2iBHogNyTWLhxnC",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/cocos-js/cc.d6fe3.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/cocos-js/cc.d6fe3.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/cocos-js/cc.d6fe3.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/cocos-js/cc.d6fe3.js",
+      "relativePathFromRoot": "/tafang/trunk/cocos-js/cc.d6fe3.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469405,
+    "finishedAt": 1755171469405,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "2AYyehHzPj_MiDjcirz1o",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/cocos-js/_virtual_cc-ih20AjT3.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/cocos-js/_virtual_cc-ih20AjT3.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/cocos-js/_virtual_cc-ih20AjT3.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/cocos-js/_virtual_cc-ih20AjT3.js",
+      "relativePathFromRoot": "/tafang/trunk/cocos-js/_virtual_cc-ih20AjT3.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469460,
+    "finishedAt": 1755171469460,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "XgktTTP-HVQoidnLyKoq-",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/src/settings.65255.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/src/settings.65255.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/src/settings.65255.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/src/settings.65255.json",
+      "relativePathFromRoot": "/tafang/trunk/src/settings.65255.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469542,
+    "finishedAt": 1755171469542,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "ZzDwNotQLVAMQVmMh8jPk",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js",
+      "relativePathFromRoot": "/tafang/trunk/cocos-js/meshopt_decoder.wasm-DKe5VOQW.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469628,
+    "finishedAt": 1755171469628,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "if-qOd2Bhcl9c-8o0RL6K",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/cocos-js/spine-B64FaKrv.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/cocos-js/spine-B64FaKrv.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/cocos-js/spine-B64FaKrv.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/cocos-js/spine-B64FaKrv.js",
+      "relativePathFromRoot": "/tafang/trunk/cocos-js/spine-B64FaKrv.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469628,
+    "finishedAt": 1755171469628,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "XsPaihq6k7ehsDvfz_NxM",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/cocos-js/spine.wasm-CmM0_PQ9.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/cocos-js/spine.wasm-CmM0_PQ9.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/cocos-js/spine.wasm-CmM0_PQ9.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/cocos-js/spine.wasm-CmM0_PQ9.js",
+      "relativePathFromRoot": "/tafang/trunk/cocos-js/spine.wasm-CmM0_PQ9.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469628,
+    "finishedAt": 1755171469628,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "CGNZuPZMJ9CzvLxUB9prp",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js",
+      "relativePathFromRoot": "/tafang/trunk/cocos-js/meshopt_decoder.wasm-Cvy1kpGq.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469628,
+    "finishedAt": 1755171469628,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "9R8d2lXtefeOHUnY919zx",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm",
+      "relativePathFromRoot": "/tafang/trunk/cocos-js/assets/meshopt_decoder.wasm-Dt74TiIT.wasm"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469653,
+    "finishedAt": 1755171469653,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "2tofM8X0EVknX1_LAD5Fi",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/cocos-js/assets/spine-BUh5FZoK.wasm",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/cocos-js/assets/spine-BUh5FZoK.wasm",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/cocos-js/assets/spine-BUh5FZoK.wasm",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/cocos-js/assets/spine-BUh5FZoK.wasm",
+      "relativePathFromRoot": "/tafang/trunk/cocos-js/assets/spine-BUh5FZoK.wasm"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469659,
+    "finishedAt": 1755171469659,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "UF0BsUFd2o4dym6wZCDFT",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/src/effect.bin",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/src/effect.bin",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/src/effect.bin",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/src/effect.bin",
+      "relativePathFromRoot": "/tafang/trunk/src/effect.bin"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469674,
+    "finishedAt": 1755171469674,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "kF5s9Z1xApVvZVlFEjpn3",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/src/chunks/bundle.db5f2.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/src/chunks/bundle.db5f2.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/src/chunks/bundle.db5f2.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/src/chunks/bundle.db5f2.js",
+      "relativePathFromRoot": "/tafang/trunk/src/chunks/bundle.db5f2.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469713,
+    "finishedAt": 1755171469713,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "BiU7DVXl_8XbTeCTemSrU",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/internal/config.9464b.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/internal/config.9464b.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/internal/config.9464b.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/internal/config.9464b.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/internal/config.9464b.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469724,
+    "finishedAt": 1755171469724,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "wwWDCAAKKe8tmFhhVleGO",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/assets/internal/index.9464b.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/internal/index.9464b.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/internal/index.9464b.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/internal/index.9464b.js",
+      "relativePathFromRoot": "/tafang/trunk/assets/internal/index.9464b.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469726,
+    "finishedAt": 1755171469726,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "XrnPIPCi9Qf8wPEJuUmir",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/internal/import/07/0765ff2cb.a430b.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/internal/import/07/0765ff2cb.a430b.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/internal/import/07/0765ff2cb.a430b.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/internal/import/07/0765ff2cb.a430b.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/internal/import/07/0765ff2cb.a430b.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469748,
+    "finishedAt": 1755171469748,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "DfL6B3kj8rnL139i2A7de",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js",
+      "relativePathFromRoot": "/tafang/trunk/src/assets/script/thirdy/bignumber/bignumber.7b3c3.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469768,
+    "finishedAt": 1755171469768,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "1fMxwkqk7hN-mN1tEzAsc",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/src/assets/script/thirdy/jszip/jszip.5450c.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/src/assets/script/thirdy/jszip/jszip.5450c.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/src/assets/script/thirdy/jszip/jszip.5450c.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/src/assets/script/thirdy/jszip/jszip.5450c.js",
+      "relativePathFromRoot": "/tafang/trunk/src/assets/script/thirdy/jszip/jszip.5450c.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469782,
+    "finishedAt": 1755171469782,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "fwfpwWcPLV6mq2VL-5s4X",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/src/assets/script/thirdy/long/long.a78c5.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/src/assets/script/thirdy/long/long.a78c5.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/src/assets/script/thirdy/long/long.a78c5.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/src/assets/script/thirdy/long/long.a78c5.js",
+      "relativePathFromRoot": "/tafang/trunk/src/assets/script/thirdy/long/long.a78c5.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469792,
+    "finishedAt": 1755171469792,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "YDq1ltzVCGgY5FyVYAUi0",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/src/assets/script/thirdy/protobuf/protobuf.405b6.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/src/assets/script/thirdy/protobuf/protobuf.405b6.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/src/assets/script/thirdy/protobuf/protobuf.405b6.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/src/assets/script/thirdy/protobuf/protobuf.405b6.js",
+      "relativePathFromRoot": "/tafang/trunk/src/assets/script/thirdy/protobuf/protobuf.405b6.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469800,
+    "finishedAt": 1755171469800,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "jVQh1b3MglRNgRA50wrpI",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/resources/config.dc189.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/resources/config.dc189.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/resources/config.dc189.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/resources/config.dc189.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/resources/config.dc189.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469805,
+    "finishedAt": 1755171469805,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "o7549XqRWmNvGywRvi1cP",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/main/config.276ef.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/main/config.276ef.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/main/config.276ef.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/main/config.276ef.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/main/config.276ef.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469805,
+    "finishedAt": 1755171469805,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "Npm2ganb1nXZ6wDiKlNQ9",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/assets/resources/index.dc189.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/resources/index.dc189.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/resources/index.dc189.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/resources/index.dc189.js",
+      "relativePathFromRoot": "/tafang/trunk/assets/resources/index.dc189.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469808,
+    "finishedAt": 1755171469808,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "EoE6kTDAVSe-6heghefOU",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/assets/main/index.276ef.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/main/index.276ef.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/main/index.276ef.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/main/index.276ef.js",
+      "relativePathFromRoot": "/tafang/trunk/assets/main/index.276ef.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469810,
+    "finishedAt": 1755171469810,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "vrS8qMtuEw-SE6Pv472Mz",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/resources/import/07/07c3358d0.40288.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/resources/import/07/07c3358d0.40288.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/resources/import/07/07c3358d0.40288.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/resources/import/07/07c3358d0.40288.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/resources/import/07/07c3358d0.40288.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469834,
+    "finishedAt": 1755171469834,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "8q3W_aJclL9Kc3P7IU0L5",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/resources/import/03/03ccd410a.6845d.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/resources/import/03/03ccd410a.6845d.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/resources/import/03/03ccd410a.6845d.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/resources/import/03/03ccd410a.6845d.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/resources/import/03/03ccd410a.6845d.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171469834,
+    "finishedAt": 1755171469834,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "9EdfKuEbK1NhAn8W1_0bh",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/main/import/cb/cb3695e0-8384-4bff-b7bf-2f1f021324d5.f30e3.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471356,
+    "finishedAt": 1755171471356,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "DhmHAAAaRqN0Uw5BnskqR",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@f9941.3f968.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471361,
+    "finishedAt": 1755171471361,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "jhZEe2-t2O058kIpULVdE",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614@6c48a.f4295.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471365,
+    "finishedAt": 1755171471365,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "r42EnGwkKYkc0a6zrn12k",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/resources/import/58/58553c8a-3f20-4432-8884-60c03d4e8614.c16a8.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471370,
+    "finishedAt": 1755171471370,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "-qH6SmHaXRB_pDiA1FuqR",
+    "type": "image",
+    "url": "http://192.168.53.32/tafang/trunk/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg",
+      "relativePathFromRoot": "/tafang/trunk/assets/resources/native/58/58553c8a-3f20-4432-8884-60c03d4e8614.cf59c.jpg"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471378,
+    "finishedAt": 1755171471378,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "Fm80jra5UQolD23s7HJIo",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/script/config.81de3.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/script/config.81de3.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/script/config.81de3.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/script/config.81de3.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/script/config.81de3.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471403,
+    "finishedAt": 1755171471403,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "yYXBX9dZv5d8rO0U6z-GJ",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/assets/script/index.81de3.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/script/index.81de3.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/script/index.81de3.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/script/index.81de3.js",
+      "relativePathFromRoot": "/tafang/trunk/assets/script/index.81de3.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471480,
+    "finishedAt": 1755171471480,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "F5VQL2UU9aYOpsjntQ_8D",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/config.73a11.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/config.73a11.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/config.73a11.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/config.73a11.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/config.73a11.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471597,
+    "finishedAt": 1755171471597,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "C0sPoR3DyHLq3hkVAVTIv",
+    "type": "script",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/index.73a11.js",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/index.73a11.js",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/index.73a11.js",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/index.73a11.js",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/index.73a11.js"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471598,
+    "finishedAt": 1755171471598,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "26i5ZRfU1sT7Rx8d3nv6m",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/import/09/09c778936.e349e.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/09/09c778936.e349e.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/09/09c778936.e349e.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/import/09/09c778936.e349e.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/import/09/09c778936.e349e.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471625,
+    "finishedAt": 1755171471625,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "Zwm-VDruP2IDLG6H_LZPM",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/import/0d/0d4e88c80.693d2.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/0d/0d4e88c80.693d2.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/0d/0d4e88c80.693d2.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/import/0d/0d4e88c80.693d2.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/import/0d/0d4e88c80.693d2.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471631,
+    "finishedAt": 1755171471631,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "l3K0gEa4NK4027_VXiKuY",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/import/0b/0bd746c36.0ab9c.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/0b/0bd746c36.0ab9c.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/0b/0bd746c36.0ab9c.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/import/0b/0bd746c36.0ab9c.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/import/0b/0bd746c36.0ab9c.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471635,
+    "finishedAt": 1755171471635,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "BIjplZjR1jzqSNwytKqzH",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/import/0a/0a856fc38.44ba6.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/0a/0a856fc38.44ba6.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/0a/0a856fc38.44ba6.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/import/0a/0a856fc38.44ba6.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/import/0a/0a856fc38.44ba6.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471646,
+    "finishedAt": 1755171471646,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "jmai9ZD_kSPk0sYAmnlJA",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/import/0c/0c7f57062.664a6.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/0c/0c7f57062.664a6.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/0c/0c7f57062.664a6.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/import/0c/0c7f57062.664a6.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/import/0c/0c7f57062.664a6.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471647,
+    "finishedAt": 1755171471647,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "_HAHzz8B2DAkc-2OUuv0G",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.19fac.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.19fac.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.19fac.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.19fac.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/import/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.19fac.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471655,
+    "finishedAt": 1755171471655,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "RMqulOnzA2nSsViLcAAgJ",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/import/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.a2533.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471656,
+    "finishedAt": 1755171471656,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "ervV_N-upCwX64KGvVLIk",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/import/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.a2533.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471656,
+    "finishedAt": 1755171471656,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "mD_rkCJL6ea-jGyRjcqs0",
+    "type": "image",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.9d398.png",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.9d398.png",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.9d398.png",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.9d398.png",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/native/17/17a6abdc-e436-4a77-9ae7-2815f1605e9e.9d398.png"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471667,
+    "finishedAt": 1755171471667,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "mM6QacsshT2Fcx0jqZXfG",
+    "type": "image",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.32908.png",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.32908.png",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.32908.png",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.32908.png",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/native/1e/1e73757c-589b-4fe6-bf34-489e9efa5e91.32908.png"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471670,
+    "finishedAt": 1755171471670,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "EPaaH6RhxRURZKghOJrjW",
+    "type": "image",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.95b76.png",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.95b76.png",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.95b76.png",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.95b76.png",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/native/23/23f0f0ea-fa70-4905-bbf6-375b9bb1badd.95b76.png"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471716,
+    "finishedAt": 1755171471716,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "bBa1OSkoejCfkKjByVFMo",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/main/import/29/29542192-0605-4c1b-bf41-037cd5f1a77d.aa698.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471786,
+    "finishedAt": 1755171471786,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "tusqhQ3NBoZ1ktkwrjXAC",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/import/0f/0f8f84c7-5a96-49fe-a127-f66d9c90c822.5c800.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471803,
+    "finishedAt": 1755171471803,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "EB6EOcCNtbVCNSqIPWghB",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/import/90/90ad71cb-57e4-47e0-8e90-9975c88b3ff0.ca87c.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/90/90ad71cb-57e4-47e0-8e90-9975c88b3ff0.ca87c.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/90/90ad71cb-57e4-47e0-8e90-9975c88b3ff0.ca87c.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/import/90/90ad71cb-57e4-47e0-8e90-9975c88b3ff0.ca87c.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/import/90/90ad71cb-57e4-47e0-8e90-9975c88b3ff0.ca87c.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471824,
+    "finishedAt": 1755171471824,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "S5ecFqT7ou86Fa5Is-8rf",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/import/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.60fe4.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.60fe4.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.60fe4.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/import/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.60fe4.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/import/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.60fe4.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471837,
+    "finishedAt": 1755171471837,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "6oH9LJNaEEAJafugcl8mv",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.de14e.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.de14e.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.de14e.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.de14e.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/import/b1/b1599ba8-a591-497a-855b-029d39ad4ae2.de14e.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471838,
+    "finishedAt": 1755171471838,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "IqQtGuV_49K5nXzhulFRG",
+    "type": "xhr",
+    "url": "http://192.168.53.50:9667/sd/extend?codever=1&gcid=9999&rt=0.5718175381222264",
+    "normalized": {
+      "originalUrl": "http://192.168.53.50:9667/sd/extend?codever=1&gcid=9999&rt=0.5718175381222264",
+      "normalizedUrl": "http://192.168.53.50:9667/sd/extend?codever=1&gcid=9999&rt=0.5718175381222264",
+      "host": "192.168.53.50",
+      "pathname": "/sd/extend",
+      "queryHashSuffix": "__q_1231bf3a",
+      "relativePathFromRoot": "external/192.168.53.50/sd/extend"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471855,
+    "finishedAt": 1755171471855,
+    "state": "success",
+    "referrer": "http://192.168.53.32/",
+    "originHost": "192.168.53.50"
+  },
+  {
+    "id": "wdIn33ChvhRVBW-15CVgm",
+    "type": "xhr",
+    "url": "http://192.168.53.50:9667/sd/his?gcid=9999&uid=xianyu&rt=0.48302238763875094",
+    "normalized": {
+      "originalUrl": "http://192.168.53.50:9667/sd/his?gcid=9999&uid=xianyu&rt=0.48302238763875094",
+      "normalizedUrl": "http://192.168.53.50:9667/sd/his?gcid=9999&uid=xianyu&rt=0.48302238763875094",
+      "host": "192.168.53.50",
+      "pathname": "/sd/his",
+      "queryHashSuffix": "__q_6602ef31",
+      "relativePathFromRoot": "external/192.168.53.50/sd/his"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471860,
+    "finishedAt": 1755171471860,
+    "state": "success",
+    "referrer": "http://192.168.53.32/",
+    "originHost": "192.168.53.50"
+  },
+  {
+    "id": "zfRlIF_ab5pkIDPS2Hw2w",
+    "type": "image",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/native/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.9de47.png",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/native/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.9de47.png",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/native/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.9de47.png",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/native/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.9de47.png",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/native/59/590c1285-f9ee-45cf-ae58-d9520d3c2e75.9de47.png"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471864,
+    "finishedAt": 1755171471864,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  },
+  {
+    "id": "akysAynS7f_9q2qTYV4DM",
+    "type": "xhr",
+    "url": "http://192.168.53.32/tafang/trunk/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.1387e.json",
+    "normalized": {
+      "originalUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.1387e.json",
+      "normalizedUrl": "http://192.168.53.32/tafang/trunk/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.1387e.json",
+      "host": "192.168.53.32",
+      "pathname": "/tafang/trunk/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.1387e.json",
+      "relativePathFromRoot": "/tafang/trunk/assets/res/import/a0/a02ba938-beed-4c12-8427-07261b7a5a1d.1387e.json"
+    },
+    "method": "GET",
+    "statusCode": 200,
+    "startedAt": 1755171471865,
+    "finishedAt": 1755171471865,
+    "state": "success",
+    "referrer": "http://192.168.53.32/tafang/trunk/index.html",
+    "originHost": "192.168.53.32"
+  }
+]

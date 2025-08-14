@@ -1,16 +1,18 @@
-import { BrowserWindow, ipcMain } from 'electron';
+import { BrowserWindow, dialog, ipcMain } from 'electron';
 import { IPC } from '../../shared/ipc';
 import { SessionManager } from '../session/SessionManager';
 import { ResourceCaptureService } from '../capture/ResourceCaptureService';
 import fs from 'fs-extra';
 import path from 'node:path';
+import { ExportService } from '../export/ExportService';
+import { SettingsStore } from '../store/SettingsStore';
 
 let capture: ResourceCaptureService | null = null;
 
 export function registerMainIpcHandlers(_win: BrowserWindow) {
   ipcMain.handle(IPC.NavigateTo, async (_event, args: { url: string }) => {
     const s = SessionManager.startNewSession(args.url);
-    capture = new ResourceCaptureService({ sessionPartition: s.partition, tempDir: s.tempDir, mainDocumentUrl: args.url });
+    capture = new ResourceCaptureService({ sessionPartition: s.partition, tempDir: s.tempDir, mainDocumentUrl: args.url, enableStreamingCapture: false });
     await capture.start();
     return { sessionId: s.sessionId, partition: s.partition };
   });
@@ -37,7 +39,7 @@ export function registerMainIpcHandlers(_win: BrowserWindow) {
     return { ok: true };
   });
 
-  ipcMain.handle('records:get', async () => {
+  ipcMain.handle(IPC.RecordsGet, async () => {
     const s = SessionManager.getCurrent();
     if (!s) return { ok: false, records: [] };
     try {
@@ -50,6 +52,44 @@ export function registerMainIpcHandlers(_win: BrowserWindow) {
     } catch (e) {
       return { ok: false, records: [] };
     }
+  });
+
+  // choose export target directory
+  ipcMain.handle(IPC.ExportChooseTargetDir, async () => {
+    const res = await dialog.showOpenDialog({ properties: ['openDirectory', 'createDirectory'] });
+    if (res.canceled || !res.filePaths[0]) return { canceled: true };
+    const dir = res.filePaths[0];
+    SettingsStore.set('export.baseDir', dir);
+    return { canceled: false, directory: dir };
+  });
+
+  // run export all
+  ipcMain.handle(IPC.ExportRun, async (event, args?: { targetDir?: string }) => {
+    const s = SessionManager.getCurrent();
+    if (!s) return { ok: false, message: 'no session' };
+    const targetDir = args?.targetDir || SettingsStore.get('export.baseDir');
+    if (!targetDir) return { ok: false, message: 'no targetDir' };
+    // 清理目标目录，防止上次导出残留
+    try { await fs.emptyDir(targetDir); } catch {}
+    const idxPath = path.join(s.tempDir, 'index.json');
+    const records = (await fs.pathExists(idxPath)) ? await fs.readJson(idxPath) : [];
+    // 按资源类型过滤导出目标：跳过 'document'，导出其它静态资源
+    const exportable = Array.isArray(records) ? records.filter((r: any) => r && r.type !== 'document') : [];
+    const onProgress = (p: any) => {
+      event?.sender?.send(IPC.ExportProgress, p);
+    };
+    await ExportService.exportAll({ tempDir: s.tempDir, records: exportable, targetDir, onProgress });
+    return { ok: true };
+  });
+
+  // settings get/set
+  ipcMain.handle(IPC.SettingsGet, async (_event, args: { key: string; defaultValue?: any }) => {
+    const value = SettingsStore.get(args.key as any, args.defaultValue);
+    return { ok: true, value };
+  });
+  ipcMain.handle(IPC.SettingsSet, async (_event, args: { key: string; value: any }) => {
+    SettingsStore.set(args.key as any, args.value);
+    return { ok: true };
   });
 }
 

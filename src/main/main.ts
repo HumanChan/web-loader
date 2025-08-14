@@ -11,9 +11,9 @@ async function createWindow() {
   const preloadPath = fs.existsSync(preloadCjs) ? preloadCjs : preloadJs;
   mainWindow = new BrowserWindow({
     width: 1080,
-    height: 1380,
+    height: 900,
     minWidth: 1080,
-    minHeight: 1380,
+    minHeight: 720,
     show: false,
     webPreferences: {
       preload: preloadPath,
