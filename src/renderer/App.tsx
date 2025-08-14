@@ -37,7 +37,7 @@ const styles = {
     minWidth: 360,
     borderLeft: '1px solid #1e293b',
     boxSizing: 'border-box' as const,
-    padding: 16,
+    padding: '0 16px 16px 16px',
     background: 'var(--panel)',
   },
   webview: {
