@@ -11,8 +11,13 @@ let capture: ResourceCaptureService | null = null;
 
 export function registerMainIpcHandlers(_win: BrowserWindow) {
   ipcMain.handle(IPC.NavigateTo, async (_event, args: { url: string }) => {
+    // 停止上一轮捕获，避免重复监听与定时器泄漏
+    if (capture) {
+      try { await capture.stop(); } catch {}
+      capture = null;
+    }
     const s = SessionManager.startNewSession(args.url);
-    // 回退为仅 webRequest 元信息捕获，确保页面稳定展示
+    // 永久关闭流式拦截，避免影响请求；改为 webRequest + 导出回写策略
     capture = new ResourceCaptureService({ sessionPartition: s.partition, tempDir: s.tempDir, mainDocumentUrl: args.url, enableStreamingCapture: false });
     await capture.start();
     return { sessionId: s.sessionId, partition: s.partition };
@@ -78,11 +83,13 @@ export function registerMainIpcHandlers(_win: BrowserWindow) {
     const idxPath = path.join(s.tempDir, 'index.json');
     const records = (await fs.pathExists(idxPath)) ? await fs.readJson(idxPath) : [];
     // 按资源类型过滤导出目标：跳过 'document'，导出其它静态资源
-    const exportable = Array.isArray(records) ? records.filter((r: any) => r && r.type !== 'document') : [];
+    const exportable = Array.isArray(records)
+      ? records.filter((r: any) => r && r.type !== 'document')
+      : [];
     const onProgress = (p: any) => {
       event?.sender?.send(IPC.ExportProgress, p);
     };
-    await ExportService.exportAll({ tempDir: s.tempDir, records: exportable, targetDir, onProgress });
+    await ExportService.exportAll({ tempDir: s.tempDir, records: exportable, targetDir, onProgress, sessionPartition: s.partition });
     event?.sender?.send(IPC.ExportDone, { ok: true, targetDir });
     return { ok: true };
   });

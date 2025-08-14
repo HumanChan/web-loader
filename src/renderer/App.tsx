@@ -83,7 +83,7 @@ const styles = {
 } as const;
 
 export function App() {
-  const [url, setUrl] = React.useState('https://example.com');
+  const [url, setUrl] = React.useState('');
   const [partition, setPartition] = React.useState<string>('persist:webloader-init');
   const [navigatedUrl, setNavigatedUrl] = React.useState<string>('about:blank');
   const [timerMs, setTimerMs] = React.useState<number>(0);
