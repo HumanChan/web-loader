@@ -6,11 +6,11 @@ export function Card({ className, ...props }: React.HTMLAttributes<HTMLDivElemen
 }
 
 export function CardTitle({ className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) {
-  return <h3 className={twMerge('text-sm text-slate-100 mb-2 font-medium', className)} {...props} />;
+  return <h3 className={twMerge('text-sm mb-2 font-medium text-[color:var(--fg)]', className)} {...props} />;
 }
 
 export function CardSubtitle({ className, ...props }: React.HTMLAttributes<HTMLParagraphElement>) {
-  return <p className={twMerge('text-xs text-slate-400', className)} {...props} />;
+  return <p className={twMerge('text-xs text-[color:var(--fg-muted)]', className)} {...props} />;
 }
 
 

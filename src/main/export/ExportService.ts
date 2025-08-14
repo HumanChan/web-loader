@@ -93,6 +93,8 @@ export const ExportService = {
           await fs.ensureDir(path.dirname(dstPath));
           await fs.copy(srcPath, dstPath, { overwrite: true, errorOnExist: false });
           bytesCompleted += stat.size;
+          // 回写实际大小到记录，便于统计面板与导出一致
+          try { r.sizeOnDisk = stat.size; } catch {}
           completed += 1;
         } else {
           failed += 1;
@@ -102,6 +104,11 @@ export const ExportService = {
       }
       report();
     }
+    // 同步回 index.json，便于后续统计读取实际字节
+    try {
+      const idxPath = path.join(tempDir, 'index.json');
+      await fs.writeJson(idxPath, records, { spaces: 2 });
+    } catch {}
   },
 };
 

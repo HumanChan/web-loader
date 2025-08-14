@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
+import { Search } from 'lucide-react';
+import { ThemeToggle } from './ui/theme-toggle';
 import { IPC } from '../../shared/ipc';
 
 interface Props {
@@ -29,21 +31,9 @@ export function Toolbar({ url, setUrl, onNavigated, setIsRunning, setTimerMs, se
         onNavigated(finalUrl, res?.partition);
         setTimerMs(0);
         setIsRunning(true);
-      }}>确定</Button>
-      <Button size="sm" variant="outline" onClick={async () => {
-        const res = await (window as any).api.invoke(IPC.ExportChooseTargetDir);
-        if (!res?.canceled && res?.directory) setExportDir(res.directory);
-      }}>选择目录</Button>
-      <Button size="sm" variant="primary" onClick={async () => {
-        setExportProgress({ total: 0, completed: 0, failed: 0, bytesTotal: 0, bytesCompleted: 0 });
-        (window as any).api.on(IPC.ExportProgress, (p: any) => setExportProgress(p));
-        await (window as any).api.invoke(IPC.ExportRun, {});
-        setIsRunning(false);
-        setTimerMs(0);
-      }}>导出</Button>
-      <Button size="sm" onClick={async () => { await (window as any).api.invoke(IPC.PauseCapture); setIsRunning(false); }}>暂停</Button>
-      <Button size="sm" onClick={async () => { await (window as any).api.invoke(IPC.ResumeCapture); setIsRunning(true); }}>继续</Button>
-      <Button size="sm" onClick={async () => { await (window as any).api.invoke(IPC.StopCapture); setIsRunning(false); setTimerMs(0); }}>停止</Button>
+      }}><Search size={16}/> 跳转</Button>
+      <div className="ml-1" />
+      <ThemeToggle />
     </div>
   );
 }

@@ -11,6 +11,7 @@ export const IPC = {
   ExportRun: 'export:run',
   ExportChooseTargetDir: 'export:choose-target-dir',
   ExportProgress: 'export:progress',
+  ExportDone: 'export:done',
 
   // settings
   SettingsGet: 'settings:get',

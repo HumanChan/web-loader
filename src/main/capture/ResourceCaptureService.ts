@@ -20,10 +20,24 @@ function mapResourceType(rt: string): ResourceRecord['type'] {
   return 'other';
 }
 
+function mapResourceTypeByMime(mime?: string): ResourceRecord['type'] {
+  if (!mime) return 'other';
+  const m = mime.toLowerCase();
+  if (m.includes('text/html')) return 'document';
+  if (m.includes('text/css')) return 'stylesheet';
+  if (m.includes('javascript') || m.includes('application/x-javascript')) return 'script';
+  if (m.startsWith('image/')) return 'image';
+  if (m.startsWith('font/')) return 'font';
+  if (m.startsWith('audio/')) return 'audio';
+  if (m.includes('json')) return 'json';
+  return 'other';
+}
+
 export class ResourceCaptureService {
   private records: Map<string, ResourceRecord> = new Map();
   private isPaused = false;
   private indexWriteTimer: NodeJS.Timeout | null = null;
+  private bytesTotal = 0;
 
   constructor(private opts: { sessionPartition: string; tempDir: string; mainDocumentUrl: string; enableStreamingCapture?: boolean }) {}
 
@@ -51,6 +65,14 @@ export class ResourceCaptureService {
       try {
         const id = nanoid();
         const normalized = normalizeUrl(details.url, this.opts.mainDocumentUrl);
+        // normalize headers: case-insensitive and array handling
+        const hdrs: Record<string, string | string[]> = (details.responseHeaders || {}) as any;
+        const lower: Record<string, string | string[]> = {};
+        for (const k of Object.keys(hdrs)) lower[k.toLowerCase()] = hdrs[k];
+        const ctRaw = lower['content-type'];
+        const clRaw = lower['content-length'];
+        const mimeType = Array.isArray(ctRaw) ? String(ctRaw[0]) : (ctRaw ? String(ctRaw) : undefined);
+        const contentLength = Array.isArray(clRaw) ? Number(clRaw[0]) : (clRaw ? Number(clRaw) : undefined);
         const rec: ResourceRecord = {
           id,
           type: mapResourceType(details.resourceType),
@@ -65,9 +87,9 @@ export class ResourceCaptureService {
           },
           method: (details.method || 'GET') as any,
           statusCode: details.statusCode,
-          mimeType: details.responseHeaders && details.responseHeaders['content-type'] ? String(details.responseHeaders['content-type']) : undefined,
-          contentLength: details.responseHeaders && details.responseHeaders['content-length'] ? Number(details.responseHeaders['content-length']) : undefined,
-          sizeOnDisk: undefined,
+          mimeType,
+          contentLength,
+          sizeOnDisk: contentLength,
           startedAt: Date.now(),
           finishedAt: Date.now(),
           state: details.statusCode && details.statusCode >= 200 && details.statusCode < 400 ? 'success' : 'failed',
@@ -88,11 +110,18 @@ export class ResourceCaptureService {
       return p;
     };
 
-    const pipeToFile = (readable: NodeJS.ReadableStream, filePath: string): Promise<number> => {
+    const pipeToFile = (
+      readable: NodeJS.ReadableStream,
+      filePath: string,
+      onProgress?: (writtenBytes: number) => void,
+    ): Promise<number> => {
       return new Promise((resolve, reject) => {
         const writable = fs.createWriteStream(filePath);
         let bytes = 0;
-        readable.on('data', (chunk: Buffer) => { bytes += chunk.length; });
+        readable.on('data', (chunk: Buffer) => {
+          bytes += (chunk as Buffer).length;
+          try { onProgress?.(bytes); } catch {}
+        });
         readable.on('error', reject);
         writable.on('error', reject);
         writable.on('finish', () => resolve(bytes));
@@ -108,6 +137,15 @@ export class ResourceCaptureService {
           return;
         }
         try {
+          // 跳过主文档请求，避免拦截导致 webview 白屏
+          const mainUrl = new URL(this.opts.mainDocumentUrl);
+          const reqUrl = new URL(request.url);
+          // ProtocolRequest 没有 resourceType 字段，保守判断 URL 是否与主文档一致
+          const isMainDocument = (reqUrl.href === mainUrl.href);
+          if (isMainDocument) {
+            callback({});
+            return;
+          }
           const filesRoot = await ensureFilesDir();
           const normalized = normalizeUrl(request.url, this.opts.mainDocumentUrl);
           const id = nanoid();
@@ -119,6 +157,7 @@ export class ResourceCaptureService {
             url: request.url,
             method: request.method as any,
             headers: (request as any).headers || {},
+            session: ses as any,
           } as any);
           if (request.uploadData) {
             for (const part of request.uploadData) {
@@ -137,14 +176,50 @@ export class ResourceCaptureService {
             res.on('end', () => pass.end());
             res.on('error', () => pass.destroy());
 
-            // stream to disk in parallel
-            pipeToFile(pass, outPath).then((bytes) => {
-              // update record by url match fallback
-              for (const r of this.records.values()) {
-                if (r.url === request.url && !r.tempFilePath) {
-                  r.tempFilePath = outPath;
-                  r.sizeOnDisk = bytes;
-                }
+            // create or upsert record for this response
+            const ct = res.headers['content-type'] as any;
+            const cl = res.headers['content-length'] as any;
+            const mime = Array.isArray(ct) ? String(ct[0]) : (ct ? String(ct) : undefined);
+            const contentLength = Array.isArray(cl) ? Number(cl[0]) : (cl ? Number(cl) : undefined);
+            const rec: ResourceRecord = {
+              id,
+              type: mapResourceTypeByMime(mime),
+              url: request.url,
+              normalized: {
+                originalUrl: request.url,
+                normalizedUrl: normalized.normalizedUrl || request.url,
+                host: normalized.host,
+                pathname: normalized.pathname,
+                queryHashSuffix: normalized.queryHashSuffix,
+                relativePathFromRoot: normalized.relativePathFromRoot,
+              },
+              method: (request.method || 'GET') as any,
+              statusCode: res.statusCode,
+              mimeType: mime,
+              contentLength,
+              sizeOnDisk: 0,
+              startedAt: Date.now(),
+              finishedAt: undefined,
+              state: (res.statusCode && res.statusCode >= 200 && res.statusCode < 400) ? 'in-progress' : 'failed',
+              referrer: undefined,
+              originHost: normalized.host,
+              tempFilePath: outPath,
+            };
+            this.records.set(id, rec);
+            this.schedulePersistIndex();
+
+            // stream to disk with incremental progress
+            let lastPersist = 0;
+            pipeToFile(pass, outPath, (written) => {
+              const r = this.records.get(id);
+              if (r) r.sizeOnDisk = written;
+              const now = Date.now();
+              if (now - lastPersist > 300) { this.schedulePersistIndex(); lastPersist = now; }
+            }).then(() => {
+              const r = this.records.get(id);
+              if (r) {
+                r.finishedAt = Date.now();
+                r.state = (res.statusCode && res.statusCode >= 200 && res.statusCode < 400) ? 'success' : 'failed';
               }
               this.schedulePersistIndex();
             }).catch(() => {});
@@ -159,8 +234,9 @@ export class ResourceCaptureService {
     };
 
     if (this.opts.enableStreamingCapture) {
-      await register('http');
-      await register('https');
+      // 暂时禁用，以保证页面稳定；我们稍后改为 webRequest + netLog 方式统计大小
+      // await register('http');
+      // await register('https');
     }
   }
 

@@ -10,12 +10,32 @@
 	--accent: #7c3aed;
 	--ring: #22d3ee;
 	--muted: #94a3b8;
+    --fg: #e6e6e6;
+    --fg-muted: #94a3b8;
+    --webpane-bg: linear-gradient(180deg, #0f1115 0%, #0b0d12 100%);
+    --scroll-thumb: rgba(255,255,255,0.14);
+}
+
+/* 轻量浅色主题（可在 html 或 body 上添加 class="theme-light" 启用） */
+.theme-light {
+	--bg: #f8fafc;
+	--panel: #ffffff;
+	--card: #ffffff;
+	--border: #e2e8f0;
+	--accent: #7c3aed;
+	--ring: #0ea5e9;
+	--muted: #64748b;
+    --fg: #0f172a;
+    --fg-muted: #475569;
+    --webpane-bg: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+    --scroll-thumb: rgba(15, 23, 42, 0.18);
 }
 
 html, body, #root {
 	height: 100%;
 	margin: 0;
 	background: var(--bg);
+	color: var(--fg);
 }
 
 .bg-gradient-app {
@@ -27,15 +47,16 @@ html, body, #root {
 }
 
 .btn {
-	@apply inline-flex items-center justify-center rounded-md border border-[var(--border)] bg-[color:var(--panel)] px-3 h-9 text-sm text-slate-100 hover:bg-slate-800/60 transition-colors;
+	@apply inline-flex items-center justify-center rounded-md border border-[var(--border)] bg-[color:var(--panel)] px-3 h-9 text-sm text-[color:var(--fg)] hover:bg-slate-800/60 transition-colors;
 }
 
 .input {
-	@apply h-9 w-full rounded-md border border-[var(--border)] bg-[color:var(--panel)] px-3 text-slate-100 placeholder:text-slate-400 outline-none focus-visible:ring-2 focus-visible:ring-[var(--ring)];
+	@apply h-9 w-full rounded-md border border-[var(--border)] bg-[color:var(--panel)] px-3 text-[color:var(--fg)] placeholder:text-[color:var(--muted)] outline-none focus-visible:ring-2 focus-visible:ring-[var(--ring)];
 }
 
 .glass {
-	@apply bg-white/5 backdrop-blur-md border border-white/10;
+	@apply backdrop-blur-md border border-[var(--border)];
+	background-color: var(--panel);
 }
 
 

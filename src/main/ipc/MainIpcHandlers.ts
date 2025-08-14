@@ -12,6 +12,7 @@ let capture: ResourceCaptureService | null = null;
 export function registerMainIpcHandlers(_win: BrowserWindow) {
   ipcMain.handle(IPC.NavigateTo, async (_event, args: { url: string }) => {
     const s = SessionManager.startNewSession(args.url);
+    // 回退为仅 webRequest 元信息捕获，确保页面稳定展示
     capture = new ResourceCaptureService({ sessionPartition: s.partition, tempDir: s.tempDir, mainDocumentUrl: args.url, enableStreamingCapture: false });
     await capture.start();
     return { sessionId: s.sessionId, partition: s.partition };
@@ -46,11 +47,14 @@ export function registerMainIpcHandlers(_win: BrowserWindow) {
       const idxPath = path.join(s.tempDir, 'index.json');
       if (await fs.pathExists(idxPath)) {
         const arr = await fs.readJson(idxPath);
-        return { ok: true, records: arr };
+        const okCount = arr.filter((r: any) => r.state === 'success').length;
+        const failedCount = arr.filter((r: any) => r.state === 'failed').length;
+        const bytes = arr.reduce((sum: number, r: any) => sum + (Number(r.sizeOnDisk ?? 0) || Number(r.contentLength ?? 0) || 0), 0);
+        return { ok: true, records: arr, live: { total: arr.length, ok: okCount, failed: failedCount, bytes } };
       }
-      return { ok: true, records: [] };
+      return { ok: true, records: [], live: { total: 0, ok: 0, failed: 0, bytes: 0 } };
     } catch (e) {
-      return { ok: false, records: [] };
+      return { ok: false, records: [], live: { total: 0, ok: 0, failed: 0, bytes: 0 } };
     }
   });
 
@@ -79,6 +83,7 @@ export function registerMainIpcHandlers(_win: BrowserWindow) {
       event?.sender?.send(IPC.ExportProgress, p);
     };
     await ExportService.exportAll({ tempDir: s.tempDir, records: exportable, targetDir, onProgress });
+    event?.sender?.send(IPC.ExportDone, { ok: true, targetDir });
     return { ok: true };
   });
 
