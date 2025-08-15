@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Card, CardSubtitle, CardTitle } from '../ui/card';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../ui/card';
+import { Progress } from '../ui/progress';
 
 interface Props {
   progress: { total: number; completed: number; failed: number; bytesTotal: number; bytesCompleted: number } | null;
@@ -9,14 +10,20 @@ export function ProgressCard({ progress }: Props) {
   const pct = progress && progress.total > 0 ? Math.round((progress.completed / progress.total) * 100) : 0;
   return (
     <Card>
-      <CardTitle>导出进度</CardTitle>
-      <CardSubtitle className="mb-3">{progress ? `${progress.completed}/${progress.total}（失败 ${progress.failed}）` : '未开始'}</CardSubtitle>
-      <div className="w-full h-2 rounded bg-slate-700/40 overflow-hidden">
-        <div className="h-full bg-[color:var(--accent)] transition-all" style={{ width: `${pct}%` }} />
-      </div>
-      {progress && (
-        <div className="mt-2 text-[11px] text-slate-400">{(progress.bytesCompleted/1024/1024).toFixed(1)}MB / {(progress.bytesTotal/1024/1024).toFixed(1)}MB</div>
-      )}
+      <CardHeader className="pb-3">
+        <CardTitle className="text-sm">导出进度</CardTitle>
+        <CardDescription>
+          {progress ? `${progress.completed}/${progress.total}（失败 ${progress.failed}）` : '未开始'}
+        </CardDescription>
+      </CardHeader>
+      <CardContent className="pt-0">
+        <Progress value={pct} className="h-2" />
+        {progress && (
+          <div className="mt-2 text-xs text-muted-foreground">
+            {(progress.bytesCompleted/1024/1024).toFixed(1)}MB / {(progress.bytesTotal/1024/1024).toFixed(1)}MB
+          </div>
+        )}
+      </CardContent>
     </Card>
   );
 }

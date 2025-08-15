@@ -8,6 +8,7 @@ import { StatsCard } from './components/side/StatsCard';
 import { Separator } from './components/ui/separator';
 import { ScrollArea } from './components/ui/scroll-area';
 import { Empty } from './components/ui/empty';
+import { Toaster } from './components/ui/sonner';
 import { Globe } from 'lucide-react';
 
 const styles = {
@@ -135,7 +136,7 @@ export function App() {
       </div>
       <div style={styles.webPane}>
         {navigatedUrl === 'about:blank' ? (
-          <Empty title="尚未加载页面" subtitle="请输入 URL 并点击“确定”开始捕获" icon={<Globe size={16} />} />
+          <Empty title="尚未加载页面" subtitle="请输入 URL 并点击确定开始捕获" icon={<Globe size={16} />} />
         ) : (
           <webview
             key={webviewPartition}
@@ -147,26 +148,35 @@ export function App() {
         )}
       </div>
       <div style={styles.sidePanel}>
-        <ScrollArea className="w-full h-full pr-1">
-          <ExportCard
-            exportDir={exportDir}
-            setExportDir={setExportDir}
-            setExportProgress={setExportProgress}
-            setIsRunning={setIsRunning}
-            setTimerMs={setTimerMs}
-          />
-          <Separator className="my-3" />
-          <ControlCard
-            timerSec={Math.floor(timerMs / 1000)}
-            isRunning={isRunning}
-            setIsRunning={setIsRunning}
-          />
-          <Separator className="my-3" />
-          <StatsCard live={liveStats} />
-          <Separator className="my-3" />
-          <ProgressCard progress={exportProgress} />
+        <ScrollArea className="w-full h-full pr-2">
+          <div className="space-y-6 p-1">
+            {/* 操作控制区域 */}
+            <div className="space-y-4">
+              <ExportCard
+                exportDir={exportDir}
+                setExportDir={setExportDir}
+                setExportProgress={setExportProgress}
+                setIsRunning={setIsRunning}
+                setTimerMs={setTimerMs}
+              />
+              <ControlCard
+                timerSec={Math.floor(timerMs / 1000)}
+                isRunning={isRunning}
+                setIsRunning={setIsRunning}
+              />
+            </div>
+            
+            <Separator className="mx-0" />
+            
+            {/* 数据展示区域 */}
+            <div className="space-y-4">
+              <StatsCard live={liveStats} />
+              <ProgressCard progress={exportProgress} />
+            </div>
+          </div>
         </ScrollArea>
       </div>
+      <Toaster />
     </div>
   );
 }

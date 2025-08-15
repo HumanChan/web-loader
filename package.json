@@ -15,35 +15,40 @@
     "pack:linux": "electron-builder --linux"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-progress": "^1.1.7",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-toast": "^1.2.15",
     "electron-store": "^9.0.0",
     "fs-extra": "^11.2.0",
     "mime-types": "^2.1.35",
     "nanoid": "^4.0.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sonner": "^2.0.7"
   },
   "devDependencies": {
+    "@radix-ui/react-scroll-area": "^1.1.0",
+    "@radix-ui/react-separator": "^1.1.0",
+    "@radix-ui/react-tooltip": "^1.1.3",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.11.30",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.8",
     "@vitejs/plugin-react": "^4.1.0",
-    "electron": "29",
-    "electron-vite": "^2.3.0",
-    "electron-builder": "^24.13.3",
-    "typescript": "^5.4.0",
-    "tailwindcss": "^3.4.10",
-    "postcss": "^8.4.41",
     "autoprefixer": "^10.4.19",
-    "clsx": "^2.1.1",
-    "tailwind-merge": "^2.4.0",
     "class-variance-authority": "^0.7.0",
-    "@radix-ui/react-tooltip": "^1.1.3",
-    "@radix-ui/react-scroll-area": "^1.1.0",
-    "@radix-ui/react-separator": "^1.1.0",
-    "lucide-react": "^0.424.0"
-  }
-  ,
+    "clsx": "^2.1.1",
+    "electron": "29",
+    "electron-builder": "^24.13.3",
+    "electron-vite": "^2.3.0",
+    "lucide-react": "^0.424.0",
+    "postcss": "^8.4.41",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.4.0"
+  },
   "build": {
     "appId": "com.example.webloader",
     "files": [
@@ -57,14 +62,23 @@
       "main": "dist/main/main.js"
     },
     "mac": {
-      "target": ["dmg", "zip"],
+      "target": [
+        "dmg",
+        "zip"
+      ],
       "category": "public.app-category.productivity"
     },
     "win": {
-      "target": ["nsis", "zip"]
+      "target": [
+        "nsis",
+        "zip"
+      ]
     },
     "linux": {
-      "target": ["AppImage", "deb"],
+      "target": [
+        "AppImage",
+        "deb"
+      ],
       "category": "Utility"
     }
   }
