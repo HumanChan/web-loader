@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../ui/card';
 import { Button } from '../ui/button';
 import { Badge } from '../ui/badge';
-import { Pause, Play, Square } from 'lucide-react';
+import { Pause, Play } from 'lucide-react';
 import { IPC } from '../../../shared/ipc';
 
 interface Props {
@@ -36,9 +36,6 @@ export function ControlCard({ timerSec, isRunning, setIsRunning }: Props) {
               <Play size={16}/> 继续
             </Button>
           )}
-          <Button size="sm" variant="destructive" onClick={async () => { await (window as any).api.invoke(IPC.StopCapture); setIsRunning(false); }}>
-            <Square size={16}/> 停止
-          </Button>
         </div>
       </CardContent>
     </Card>

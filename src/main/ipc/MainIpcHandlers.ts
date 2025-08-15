@@ -1,4 +1,4 @@
-import { BrowserWindow, dialog, ipcMain } from 'electron';
+import { BrowserWindow, dialog, ipcMain, shell } from 'electron';
 import { IPC } from '../../shared/ipc';
 import { SessionManager } from '../session/SessionManager';
 import { ResourceCaptureService } from '../capture/ResourceCaptureService';
@@ -31,11 +31,13 @@ export function registerMainIpcHandlers(_win: BrowserWindow) {
 
   ipcMain.handle(IPC.PauseCapture, async () => {
     SessionManager.pause();
+    if (capture) await capture.pause();
     return { ok: true };
   });
 
   ipcMain.handle(IPC.ResumeCapture, async () => {
     SessionManager.resume();
+    if (capture) await capture.resume();
     return { ok: true };
   });
 
@@ -100,6 +102,14 @@ export function registerMainIpcHandlers(_win: BrowserWindow) {
       event?.sender?.send(IPC.ExportProgress, p);
     };
     await ExportService.exportAll({ tempDir: s.tempDir, records: exportable, targetDir, onProgress, sessionPartition: s.partition });
+    
+    // 导出成功后自动打开目标文件夹
+    try {
+      await shell.openPath(targetDir);
+    } catch (error) {
+      console.error('Failed to open target directory:', error);
+    }
+    
     event?.sender?.send(IPC.ExportDone, { ok: true, targetDir });
     return { ok: true };
   });

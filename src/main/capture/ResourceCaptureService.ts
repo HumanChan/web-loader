@@ -67,6 +67,9 @@ export class ResourceCaptureService {
     const filter = { urls: ['*://*/*'] };
     const handler = async (details: any) => {
       try {
+        // 检查暂停状态，如果已暂停则跳过处理
+        if (this.isPaused) return;
+        
         const id = nanoid();
         const normalized = normalizeUrl(details.url, this.opts.mainDocumentUrl);
         // 仅统计静态资源，跳过 XHR/fetch/WebSocket 等
@@ -263,9 +266,12 @@ export class ResourceCaptureService {
       await register('https');
     }
 
-    // 定时扫描本地缓存文件大小，避免拦截，满足“实时统计”诉求
+    // 定时扫描本地缓存文件大小，避免拦截，满足"实时统计"诉求
     if (!this.sizeScanTimer) {
       this.sizeScanTimer = setInterval(async () => {
+        // 检查暂停状态，如果已暂停则跳过扫描
+        if (this.isPaused) return;
+        
         const list = Array.from(this.records.values()).filter((r) => r.tempFilePath);
         for (const r of list) {
           try {
@@ -309,6 +315,9 @@ export class ResourceCaptureService {
   }
 
   private processQueue() {
+    // 检查暂停状态，如果已暂停则不处理队列
+    if (this.isPaused) return;
+    
     while (this.activeDownloads < this.maxConcurrentDownloads && this.downloadQueue.length > 0) {
       const id = this.downloadQueue.shift()!;
       const rec = this.records.get(id);
@@ -325,6 +334,9 @@ export class ResourceCaptureService {
 
   private async fetchToTemp(rec: ResourceRecord): Promise<void> {
     try {
+      // 检查暂停状态，如果已暂停则跳过下载
+      if (this.isPaused) return;
+      
       const filesRoot = path.join(this.opts.tempDir, 'files');
       await fs.ensureDir(filesRoot);
       const ext = path.extname(new URL(rec.url).pathname) || '';

@@ -27,14 +27,14 @@ export function StatsCard({ live }: Props) {
             <div className="text-foreground text-lg font-semibold">{total}</div>
           </div>
           <div className="rounded-md border bg-muted/50 p-3">
-            <div className="text-muted-foreground text-xs flex items-center gap-1">
-              成功 <Badge variant="secondary" className="h-4 text-xs px-1">✓</Badge>
+            <div className="text-muted-foreground text-xs">
+              成功
             </div>
             <div className="text-foreground text-lg font-semibold">{ok}</div>
           </div>
           <div className="rounded-md border bg-muted/50 p-3">
-            <div className="text-muted-foreground text-xs flex items-center gap-1">
-              失败 <Badge variant="destructive" className="h-4 text-xs px-1">✗</Badge>
+            <div className="text-muted-foreground text-xs">
+              失败
             </div>
             <div className="text-foreground text-lg font-semibold">{failed}</div>
           </div>
