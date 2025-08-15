@@ -5,6 +5,7 @@ node_modules/
 /dist/
 /out/
 /temp/
+/release/
 
 # Logs
 npm-debug.log*
