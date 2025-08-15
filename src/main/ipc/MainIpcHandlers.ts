@@ -63,6 +63,16 @@ export function registerMainIpcHandlers(_win: BrowserWindow) {
     }
   });
 
+  // settings
+  ipcMain.handle(IPC.SettingsGet, async (event, key: string) => {
+    return SettingsStore.get(key as any);
+  });
+
+  ipcMain.handle(IPC.SettingsSet, async (event, key: string, value: any) => {
+    SettingsStore.set(key as any, value);
+    return { ok: true };
+  });
+
   // choose export target directory
   ipcMain.handle(IPC.ExportChooseTargetDir, async () => {
     const res = await dialog.showOpenDialog({ properties: ['openDirectory', 'createDirectory'] });

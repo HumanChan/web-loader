@@ -36,7 +36,7 @@ const styles = {
     gridColumn: '2 / 3',
     gridRow: '1 / 3',
     minWidth: 360,
-    borderLeft: '1px solid #1e293b',
+    borderLeft: '1px solid hsl(var(--border))',
     boxSizing: 'border-box' as const,
     padding: '0 16px 16px 16px',
     background: 'var(--panel)',
@@ -51,18 +51,18 @@ const styles = {
     minWidth: 320,
     height: 36,
     marginRight: 8,
-    background: '#0b1320',
-    border: '1px solid #1e293b',
-    color: '#e6e6e6',
+    background: 'hsl(var(--input))',
+    border: '1px solid hsl(var(--border))',
+    color: 'hsl(var(--foreground))',
     padding: '0 10px',
     borderRadius: 8,
     outline: 'none',
   },
   button: {
     height: 36,
-    background: '#1e293b',
-    border: '1px solid #2b3a52',
-    color: '#e6e6e6',
+    background: 'hsl(var(--secondary))',
+    border: '1px solid hsl(var(--border))',
+    color: 'hsl(var(--secondary-foreground))',
     padding: '0 12px',
     borderRadius: 8,
     cursor: 'pointer',
@@ -106,6 +106,21 @@ export function App() {
     }
     return () => timer && clearInterval(timer);
   }, [isRunning]);
+
+  // 启动时读取缓存的导出目录
+  useEffect(() => {
+    const loadCachedExportDir = async () => {
+      try {
+        const cachedDir = await (window as any).api.invoke(IPC.SettingsGet, 'export.baseDir');
+        if (cachedDir && typeof cachedDir === 'string') {
+          setExportDir(cachedDir);
+        }
+      } catch (error) {
+        console.warn('Failed to load cached export directory:', error);
+      }
+    };
+    loadCachedExportDir();
+  }, []);
 
   // 取消一切缩放/固定画布逻辑
 

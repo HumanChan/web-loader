@@ -53,7 +53,7 @@ export function Toolbar({ url, setUrl, onNavigated, setIsRunning, setTimerMs }: 
   };
 
   return (
-    <div className="flex h-14 items-center gap-3 border-b border-border px-4 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 [.theme-light_&]:bg-white/95 [.theme-light_&]:supports-[backdrop-filter]:bg-white/90">
+    <div className="flex h-14 items-center gap-3 border-b border-border px-4 bg-background">
       <div className="flex items-center gap-2 flex-1">
         <Globe size={16} className="text-muted-foreground" />
         <Input
