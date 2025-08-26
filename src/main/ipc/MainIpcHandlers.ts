@@ -85,7 +85,7 @@ export function registerMainIpcHandlers(_win: BrowserWindow) {
   });
 
   // run export all
-  ipcMain.handle(IPC.ExportRun, async (event, args?: { targetDir?: string }) => {
+  ipcMain.handle(IPC.ExportRun, async (event, args?: { targetDir?: string; astcEnabled?: boolean }) => {
     const s = SessionManager.getCurrent();
     if (!s) return { ok: false, message: 'no session' };
     const targetDir = args?.targetDir || SettingsStore.get('export.baseDir');
@@ -101,7 +101,7 @@ export function registerMainIpcHandlers(_win: BrowserWindow) {
     const onProgress = (p: any) => {
       event?.sender?.send(IPC.ExportProgress, p);
     };
-    await ExportService.exportAll({ tempDir: s.tempDir, records: exportable, targetDir, onProgress, sessionPartition: s.partition });
+    await ExportService.exportAll({ tempDir: s.tempDir, records: exportable, targetDir, onProgress, sessionPartition: s.partition, exportAstcForPng: args?.astcEnabled ?? true });
     
     // 导出成功后自动打开目标文件夹
     try {

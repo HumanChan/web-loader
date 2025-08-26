@@ -15,6 +15,7 @@ interface Props {
 }
 
 export function ExportCard({ exportDir, setExportDir, setExportProgress, setIsRunning, setTimerMs }: Props) {
+  const [astcEnabled, setAstcEnabled] = React.useState<boolean>(true);
   return (
     <Card className="mb-4">
       <CardHeader className="pb-3">
@@ -58,13 +59,25 @@ export function ExportCard({ exportDir, setExportDir, setExportProgress, setIsRu
                     description: '文件已保存到目标目录',
                   });
                 });
-                await (window as any).api.invoke(IPC.ExportRun, {});
+                await (window as any).api.invoke(IPC.ExportRun, { astcEnabled });
                 setIsRunning(false);
                 setTimerMs(0);
               }}
             >
               <Download size={16}/> 导出
             </Button>
+          </div>
+          <div className="flex items-center gap-2 text-xs text-muted-foreground">
+            <input
+              id="export-astc-toggle"
+              type="checkbox"
+              className="h-3.5 w-3.5 accent-foreground"
+              checked={astcEnabled}
+              onChange={(e) => setAstcEnabled(e.target.checked)}
+            />
+            <label htmlFor="export-astc-toggle" className="select-none cursor-pointer">
+              同时导出同名 .astc（若存在）
+            </label>
           </div>
         </div>
       </CardContent>
