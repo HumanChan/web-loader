@@ -164,7 +164,7 @@ export function App() {
       </div>
       <div style={styles.sidePanel}>
         <ScrollArea className="w-full h-full pr-2">
-          <div className="space-y-6 p-1">
+          <div className="space-y-4 p-1">
             {/* 操作控制区域 */}
             <div className="space-y-4">
               <ExportCard

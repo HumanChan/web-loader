@@ -69,14 +69,20 @@ export const ExportService = {
         for (let i = 0; i < 3; i++) {
           const bytes = await new Promise<number>((resolve, reject) => {
             const req = requester.request({ url: urlToGet, method: 'GET', headers: referer ? { Referer: referer } : {} });
-            const ws = fs.createWriteStream(tmpFile);
             let acc = 0;
             req.on('response', (res: any) => {
               if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-                try { urlToGet = String(res.headers.location); req.abort(); ws.close(); } catch {}
+                try { urlToGet = String(res.headers.location); req.abort(); } catch {}
                 resolve(-1);
                 return;
               }
+              // 仅当 2xx 时才写入文件；否则不落盘
+              if (!(res.statusCode >= 200 && res.statusCode < 300)) {
+                try { res.resume(); } catch {}
+                resolve(0);
+                return;
+              }
+              const ws = fs.createWriteStream(tmpFile);
               res.on('data', (c: Buffer) => (acc += c.length));
               res.on('error', reject); ws.on('error', reject);
               ws.on('finish', () => resolve(acc));
@@ -98,6 +104,11 @@ export const ExportService = {
             const req = client.get(url, (res) => {
               if ((res.statusCode || 0) >= 300 && (res.statusCode || 0) < 400 && res.headers.location) {
                 const req2 = client.get(res.headers.location!, (res2) => {
+                  if (!((res2.statusCode || 0) >= 200 && (res2.statusCode || 0) < 300)) {
+                    try { res2.resume(); } catch {}
+                    resolve(0);
+                    return;
+                  }
                   const ws = fs.createWriteStream(tmpFile);
                   let b = 0; res2.on('data', (c) => (b += (c as Buffer).length));
                   res2.on('error', reject); ws.on('error', reject);
@@ -105,6 +116,11 @@ export const ExportService = {
                   res2.pipe(ws);
                 });
                 req2.on('error', reject);
+                return;
+              }
+              if (!((res.statusCode || 0) >= 200 && (res.statusCode || 0) < 300)) {
+                try { res.resume(); } catch {}
+                resolve(0);
                 return;
               }
               const ws = fs.createWriteStream(tmpFile);
