@@ -53,6 +53,7 @@
     "appId": "com.example.webloader",
     "files": [
       "dist/**",
+      "node_modules/**",
       "package.json"
     ],
     "directories": {
