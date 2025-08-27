@@ -233,17 +233,17 @@ export const ExportService = {
 
         if (srcPath && (await fs.pathExists(srcPath))) {
           const stat = await fs.stat(srcPath);
-          bytesTotal += stat.size;
-          await fs.ensureDir(path.dirname(dstPath));
-          // 处理同名冲突：若目标已存在则追加 __n 序号
-          let finalDst = dstPath;
-          if (await fs.pathExists(finalDst)) {
-            const { dir, name, ext } = path.parse(dstPath);
-            let n = 1;
-            while (await fs.pathExists(path.join(dir, `${name}__${n}${ext}`))) n++;
-            finalDst = path.join(dir, `${name}__${n}${ext}`);
+          // 若目标已存在：直接跳过且不计数，并下调 total（包含可能的 astc 尝试）
+          if (await fs.pathExists(dstPath)) {
+            total -= 1;
+            if (exportAstcForPng && isPngEligible(r)) {
+              total -= 1;
+            }
+            continue;
           }
-          await fs.copy(srcPath, finalDst, { overwrite: false, errorOnExist: false });
+          await fs.ensureDir(path.dirname(dstPath));
+          await fs.copy(srcPath, dstPath, { overwrite: false, errorOnExist: false });
+          bytesTotal += stat.size;
           bytesCompleted += stat.size;
           // 回写实际大小到记录，便于统计面板与导出一致
           try { r.sizeOnDisk = stat.size; } catch {}
@@ -255,8 +255,8 @@ export const ExportService = {
               const astcRel = path.join(dirName, path.parse(fileName).name + '.astc');
               const astcDst = path.join(targetDir, astcRel);
               if (await fs.pathExists(astcDst)) {
-                // 目标已存在：跳过写入，计作完成
-                completed += 1;
+                // 目标已存在：直接跳过且不计数，并下调 total
+                total -= 1;
               } else {
                 const astcUrl = buildAstcUrl(r.url);
                 const dl = await downloadToTempWithSession(astcUrl, r.referrer);
